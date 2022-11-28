@@ -1,0 +1,112 @@
+# Imputation Pipeline parameters for VCF files
+
+#!!! Required Parameters !!!
+#--- Database ---
+host=localHost
+user=sqlite
+password=sqlite
+DB=/phg/outputDir/phgWC400v2.1.db
+DBtype=sqlite
+
+#--- Used by liquibase to check DB version ---
+liquibaseOutdir=/phg/outputDir
+
+#--- Used for indexing SNP positions ---
+pangenomeHaplotypeMethod=CONSENSUS
+#pangenomeHaplotypeMethod=GATK_PIPELINE
+pangenomeDir=/phg/outputDir/pangenome
+indexFile=/phg/outputDir/vcfIndexFile
+#vcfFile=/phg/inputDir/imputation/vcf/TCAP90K_HWWAMP_SRPN-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/VRND4_UCD_2015-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/TCAP90K_NAMparents_panel-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/TCAP90K_CSRVAL14-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/TCAP90K_YQV14-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/TCAP90K_HWWAMP-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/TCAP90K_SpringAM_panel-strand.vcf
+vcfFile=/phg/inputDir/imputation/vcf/TCAP90K_LeafRustPanel-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/90K_inPHG-strand.vcf
+#vcfFile=/phg/inputDir/imputation/vcf/90K_notInPHG-strand.vcf
+
+#--- Used for mapping reads
+inputType=vcf
+keyFile=/phg/readMapping90K_key_file.txt
+outputPathKeyFile=/phg/readMapping90K_key_file_pathKeyFile.txt
+#readMethod=TCAP90K_SWWpanel-read
+#readMethod=WorldwideDiversityPanel_9K-read2
+#readMethod=TCAP90K_SpringAM_panel-read
+#readMethod=TCAP90K_HWWAMP-read
+#readMethod=TCAP90K_YQV14-read
+#readMethod=TCAP90K_CSRVAL14-read
+#readMethod=TCAP90K_NAMparents_panel-read2
+#readMethod=TCAP90K_LeafRustPanel-read
+#readMethod=TCAP90K_HWWAMP_SRPN-read
+#readMethod=VRND4_UCD_2015-read
+readMethod=TCAP90K_LeafRustPanel-read
+#readMethod=90K_inPHG-read
+#readMethod=90K_notInPHG-read
+vcfDir=/phg/inputDir/imputation/vcf/
+countAlleleDepths=true
+
+#--- Used for path finding
+pathHaplotypeMethod=CONSENSUS
+#pathHaplotypeMethod=GATK_PIPELINE
+#pathMethod=TCAP90K_HWWAMP-path
+#pathMethod=TCAP90K_SWWpanel-path
+#pathMethod=WorldwideDiversityPanel_9K-path3
+#pathMethod=TCAP90K_SpringAM_panel-path
+#pathMethod=TCAP90K_HWWAMP-path
+#pathMethod=TCAP90K_YQV14-path
+#pathMethod=TCAP90K_CSRVAL14-path
+#pathMethod=TCAP90K_NAMparents_panel-path2
+#pathMethod=TCAP90K_LeafRustPanel-path
+#pathMethod=TCAP90K_HWWAMP_SRPN-path
+pathMethod=TCAP90K_LeafRustPanel-path
+#pathMethod=VRND4_UCD_2015-path
+#pathMethod=90K_inPHG-path
+#pathMethod=90K_notInPHG-path
+maxNodes=1000
+maxReads=10000
+minReads=0
+minTaxa=0
+minTransitionProb=0.001
+numThreads=3
+probCorrect=0.99
+removeEqual=true
+splitNodes=true
+splitProb=0.99
+usebf=false
+maxParents = 1000000
+minCoverage = 0.1
+#parentOutputFile = **OPTIONAL**
+
+#--- used by haploid path finding only
+usebf=false
+minP=0.8
+
+#--- used by diploid path finding only
+maxHap=11
+maxReadsKB=100
+algorithmType=efficient
+
+#--- Used to output a vcf file for pathMethod
+#outVcfFile=/phg/outputDir/90Knotinphg-strand.vcf
+#outVcfFile=/phg/outputDir/TCAP90K_HWWAMP-strand
+#outVcfFile=/phg/outputDir/TCAP90K_SWWpanel-strand
+#outVcfFile=/phg/outputDir/WorldwideDiversityPanel_9K-strand
+#outVcfFile=/phg/outputDir/TCAP90K_SpringAM_panel-strand
+#outVcfFile=/phg/outputDir/TCAP90K_HWWAMP-strand
+#outVcfFile=/phg/outputDir/TCAP90K_YQV14-strand
+#outVcfFile=/phg/outputDir/TCAP90K_CSRVAL14-strand
+#outVcfFile=/phg/outputDir/TCAP90K_NAMparents_panel-strand
+#outVcfFile=/phg/outputDir/TCAP90K_LeafRustPanel-strand
+#outVcfFile=/phg/outputDir/TCAP90K_HWWAMP_SRPN-strand
+#outVcfFile=/phg/outputDir/VRND4_UCD_2015-strand
+outVcfFile=/phg/outputDir/TCAP90K_LeafRustPanel-strand
+#outVcfFile=/phg/outputDir/90K_inPHG-strand
+#outVcfFile=/phg/outputDir/90K_notInPHG-strand
+#~~~ Optional Parameters ~~~
+#readMethodDescription=**OPTIONAL**
+#pathMethodDescription=**OPTIONAL**
+#bfInfoFile=**OPTIONAL**
+#~~~ providing a value for outputDir will write read mappings to file rather than the PHG db ~~~
+#outputDir=/phg/outputDir

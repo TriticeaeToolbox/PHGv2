@@ -1,0 +1,2 @@
+flowcell_lane	filename
+1	TCAP90K_LeafRustPanel-strand.vcf
