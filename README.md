@@ -1,5 +1,5 @@
 # PHGv2
-Practical Haplotype Graph from Katie Jordon with 472 accessions aligned to CSv2.1
+Practical Haplotype Graph from Katie Jordon with 472 accessions aligned to CS RefSeq v2.1
 
 The PHG database was created using PHG v0.35 software. 
 The PHG database was updated to PHG v0.40 using Liquibase plugin
