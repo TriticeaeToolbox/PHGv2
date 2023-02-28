@@ -10,7 +10,7 @@
 - [PHGv2-plink2-pca.R](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHGv2-plink2-pca.R)
 
 
-![plink2 PCA](
+![plink2 PCA]()
 [PHGv2-cluster.R](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHGv2-cluster.R)
 ![pick number of clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/cluster-phg470v2f.jpg)
 ![cluster using kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/kmeans-phg470v2f.jpg)
