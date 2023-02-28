@@ -19,5 +19,5 @@
 
 ## SNPRelate for PCA analysis
 
-![SNPRelate var](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHG470v2-snprelate-var.jpg))
+![SNPRelate var](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHG470v2f-snprelate-var.jpg)
 ![SNPRelate PCA](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/snprelate-pca.jpg)
