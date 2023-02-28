@@ -13,8 +13,8 @@
 ![plink2 PCA](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/plink2-PHG470v2f-pca.jpg)
 
 - [PHGv2-cluster.R](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHGv2-cluster.R)
-![pick number of clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/cluster-phg470v2f.jpg)
-![cluster using kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/kmeans-phg470v2f.jpg)
+![pick number of clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/kmeans-phg470v2f.jpg)
+![cluster using kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/cluster-phg470v2f.jpg)
 
 ## SNPRelate for PCA analysis
 
