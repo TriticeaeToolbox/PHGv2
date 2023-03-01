@@ -11,13 +11,13 @@
 - [PHGv2-cluster.R](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHGv2-cluster.R)
 - [PHGv2-snprelate-pca.R](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHGv2-snprelate-pca.R)
 
-![plink2 var](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/plink2-PHG470v2f-var.jpg)
-![plink2 PCA](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/plink2-PHG470v2f-pca.jpg)
+![plink2 var](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/images/plink2-PHG470v2f-var.jpg)
+![plink2 PCA](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/images/plink2-PHG470v2f-pca.jpg)
 
-![pick number of clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/kmeans-phg470v2f.jpg)
-![cluster using kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/cluster-phg470v2f.jpg)
+![pick number of clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/images/kmeans-phg470v2f.jpg)
+![cluster using kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/images/cluster-phg470v2f.jpg)
 
 ## SNPRelate for PCA analysis
 
-![SNPRelate var](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/PHG470v2f-snprelate-var.jpg)
-![SNPRelate PCA](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/snprelate-pca.jpg)
+![SNPRelate var](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/images/PHG470v2f-snprelate-var.jpg)
+![SNPRelate PCA](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster/images/snprelate-pca.jpg)
