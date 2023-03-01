@@ -1,4 +1,5 @@
 library('cluster')
+library('tidyverse')
 library('factoextra')
 
 pca <- read_table("PHG470v2f.eigenvec")
@@ -13,4 +14,5 @@ pca_transform <- as.data.frame(pca[,2:3])
 jpeg("cluster-phg470v2f.jpg")
 km.res <- kmeans(pca_transform, 3, nstart = 25)
 fviz_cluster(km.res, data = pca_transform)
+dev.off()
 
