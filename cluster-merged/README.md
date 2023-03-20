@@ -1,6 +1,6 @@
 # PCA to reduce dimension then kmeans clustering
 
-## combind 2019_hapmap and PHG470 datasets
+## combined 2019_hapmap and PHG470 datasets
 
 This dataset combines PHG470 (5M markers) and 2019_hapmap (7M markers). The overlap by location with same ref allele is 768K markers.
 
@@ -11,5 +11,5 @@ This dataset combines PHG470 (5M markers) and 2019_hapmap (7M markers). The over
 
 3D plotpoly
 
-![3 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_plotpoly.png)
+![3 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_plotly.png)
 ![3 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/phg_merged_3dpop.png)
