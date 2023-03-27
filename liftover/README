@@ -1,0 +1,34 @@
+Convert genome assembly from one version to another
+
+1. divide assembly files into chromosomes
+
+divide.pl
+
+2. mimimap
+   https://github.com/lh3/minimap2
+
+minimap2 -cx asm5 -f200 --cs iwgsc_refseqv2.1_assembly.Chr1A.fa Triticum_aestivum.IWGSC.dna.toplevel.1A.fa > PAF_FILE.1A.paf
+minimap2 -cx asm5 -f200 --cs iwgsc_refseqv2.1_assembly_Chr1B.fa Triticum_aestivum.IWGSC.dna.toplevel_1B.fa > PAF_FILE.1B.paf
+minimap2 -cx asm5 -f200 --cs iwgsc_refseqv2.1_assembly_Chr1D.fa Triticum_aestivum.IWGSC.dna.toplevel_1D.fa > PAF_FILE.1D.paf
+
+3. transanno to convert minimap to chain file
+   https://github.com/informationsea/transanno
+
+transanno minimap2chain PAF_FILE.1A.paf --output CHAINFILE-1A.chain
+transanno minimap2chain PAF_FILE.1B.paf --output CHAINFILE-1B.chain
+transanno minimap2chain PAF_FILE.1D.paf --output CHAINFILE-1D.chain
+
+4. transanno to run liftvcf
+
+transanno liftvcf -m --chain CHAINFILE-1A.chain --output 2019_hapmap_1A.vcf.gz --original-assembly Triticum_aestivum.IWGSC.dna.toplevel.1A.fa --new-assembly iwgsc_refseqv2.1_assembly.1A.fa --vcf ../2019_hapmap_1A.vcf --fail FAILED_1A.vcf.gz
+transanno liftvcf -m --chain CHAINFILE-1B.chain --output 2019_hapmap_1B.vcf.gz --original-assembly Triticum_aestivum.IWGSC.dna.toplevel_1B.fa --new-assembly iwgsc_refseqv2.1_assembly_Chr1B.fa --vcf ../2019_hapmap_1B.vcf --fail FAILED_1B.vcf.gz
+transanno liftvcf -m --chain CHAINFILE-1D.chain --output 2019_hapmap_1D.vcf.gz --original-assembly Triticum_aestivum.IWGSC.dna.toplevel_1D.fa --new-assembly iwgsc_refseqv2.1_assembly_Chr1D.fa --vcf ../2019_hapmap_1D.vcf --fail FAILED_1D.vcf.gz
+
+5. concatenate gzip VCF files
+
+combine.pl
+
+6. merge VCF files (2019_hapmap_all.vcf and PHG470v2)
+
+merge.pl
+
