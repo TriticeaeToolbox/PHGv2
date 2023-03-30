@@ -21,5 +21,13 @@ table(km.res$cluster, class$hardness)
 table(km.res$cluster, class$season)
 table(km.res$cluster, class$color)
 
+ibrary(GGally)
+library(data.table)
+
+pca <- data.table(pca_transform)
+pca[, cluster := as.factor(km.res$cluster)]
+ggpairs(pca, aes(colour = cluster, alpha = 0.4),
+        columns = c("PC1", "PC2", "PC3", "PC4"))
+
 
 

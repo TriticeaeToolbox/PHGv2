@@ -42,6 +42,10 @@ Analysis by market class. A table showing clusters for each market class shows
 ![4 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged.png)
 ![4 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_text.png)
 
+pairs plot of PCA
+
+![pairs](https://github.com/TriticeaeToolbox/PHGv2/blob/cluster-merged/images/cluster_merged_ggpairs.png)
+
 3D plotpoly
 
 ![3 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/phg_merged_3dclus.png)
