@@ -8,11 +8,13 @@
 
 Cluster analysis show 3 clusters. A table showing clusters for each population (2019_hapmap and PHG) show populations are similar.
 
-| Cluster | 2019_hapmap | PHG470 |
-|---------|-------------|--------|
-| 1       | 46          | 0      |
-| 2       | 273         | 439    |
-| 3       | 18          | 20     |
+| Cluster | 2019_hapmap | PHG470 |  | Cluster | 2019 hapmap | PHG470 |
+|---------|-------------|--------|  |---------|-------------|--------|
+| 1       | 127         | 212    |  | 1       | 16          | 16     |
+| 2       | 156         | 116    |  | 2       | 9           | 11     |
+| 3       | 54          | 131    |  | 3       | 152         | 197    |
+				    | 4       | 104        | 95     |
+				    | 5       | 56          | 140    |
 
 Analysis by market class. A table showing clusters for each market class shows
 1. PHG represents each market class
