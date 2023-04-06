@@ -42,18 +42,55 @@ Analysis by market class. A table showing clusters for each market class shows
 | 4       |  78   | 3    | 118     |
 | 5       |  16   | 14   | 116     |
 
+| Cluster | Hard  | Soft | unknown |
+|---------|-------|------|---------|
+| 1       |  0    | 28   |  10     |
+| 2       |  7    | 7    |  117    |
+| 3       |  0    | 1    |  45     |
+| 4       |  12   | 78   |  122    |
+| 5       |  20   | 0    |  43     |
+| 6       |  11   | 7    |  8      |
+| 7       |  171  | 4    |  105    |
+
+
 | Cluster | Spring | Winter | unknown |
 | --------|--------|--------|---------|
-| 1       |  34    | 2      | 10      |
-| 2       |  132   | 244    | 335     |
-| 3       |  0     | 34     | 14      |
+| 1       |  8     | 224    | 106     |
+| 2       |  121   | 34     | 117     |
+| 3       |  38    | 22     | 125     |
+
+| Cluster | Spring | Winter | unknown |
+| --------|--------|--------|---------|
+| 1       |  0     | 284    | 4       |
+| 2       |  0     | 18     | 2       |
+| 3       |  23    | 198    | 127     |
+| 4       |  107   | 3      | 89      |
+| 5       |  37    | 33     | 126     |
+
+| Cluster | Spring | Winter | unknown |
+| --------|--------|--------|---------|
+| 1       |  0     | 34     | 4       |
+| 2       |  3     | 16     | 112     |
+| 3       |  34    | 2      | 10      |
+| 4       |  18    | 89     | 105     |
+| 5       |  14    | 6      | 43      |
+| 6       |  3     | 17     | 6       |
+| 7       |  95    | 116    | 68      |
+
 
 | Cluster |  Red   | White | unknown |
 |---------|--------|-------|---------|
-| 1       |  1     | 0     | 45      |
-| 2       |  224   | 34    | 454     |
-| 3       |  17    | 0     | 21      |
+| 1       |  156   | 26    | 156     |
+| 2       |  99    | 4     | 169     |
+| 3       |  9     | 5     | 171     |
 
+| Cluster |  Red   | White | unknown |
+|---------|--------|-------|---------|
+| 1       |  156   | 26    | 156     |
+| 2       |  99    | 4     | 169     |
+| 3       |  9     | 5     | 171     |
+| 4       |  99    | 4     | 169     |
+| 5       |  9     | 5     | 171     |
 
 ![4 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged.png)
 ![4 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_text.png)
