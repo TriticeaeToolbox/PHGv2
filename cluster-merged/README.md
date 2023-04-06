@@ -8,13 +8,19 @@
 
 Cluster analysis show 3 clusters. A table showing clusters for each population (2019_hapmap and PHG) show populations are similar.
 
-| Cluster | 2019_hapmap | PHG470 |  | Cluster | 2019 hapmap | PHG470 |
-|---------|-------------|--------|  |---------|-------------|--------|
-| 1       | 127         | 212    |  | 1       | 16          | 16     |
-| 2       | 156         | 116    |  | 2       | 9           | 11     |
-| 3       | 54          | 131    |  | 3       | 152         | 197    |
-				    | 4       | 104        | 95     |
-				    | 5       | 56          | 140    |
+| Cluster | 2019_hapmap | PHG470 |
+|---------|-------------|--------|
+| 1       | 127         | 212    | 
+| 2       | 156         | 116    |
+| 3       | 54          | 131    | 
+
+| Cluster | 2019 hapmap | PHG470 |
+|---------|-------------|--------|
+| 1       | 16          | 16     |
+| 2       | 9           | 11     |
+| 3       | 152         | 197    |
+| 4       | 104         | 95     |
+| 5       | 56          | 140    |
 
 Analysis by market class. A table showing clusters for each market class shows
 1. PHG represents each market class
@@ -24,9 +30,17 @@ Analysis by market class. A table showing clusters for each market class shows
 
 | Cluster |  Hard | Soft | unknown |
 |---------|-------|------|---------|
-| 1       |  0    | 1    | 45      |
-| 2       |  212  | 86   | 414     |
-| 3       |  0    | 28   | 10      |
+| 1       |  130  | 86   | 123     |
+| 2       |  84   | 30   | 158     |
+| 3       |  7    | 9    | 169     |
+
+| Cluster |  Hard | Soft | unknown |
+|---------|-------|------|---------|
+| 1       |  0    | 23   | 9       |
+| 2       |  0    | 16   | 4       |
+| 3       |  127  | 69   | 153     |
+| 4       |  78   | 3    | 118     |
+| 5       |  16   | 14   | 116     |
 
 | Cluster | Spring | Winter | unknown |
 | --------|--------|--------|---------|
