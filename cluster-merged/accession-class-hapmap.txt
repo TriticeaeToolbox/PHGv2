@@ -3,7 +3,7 @@ AVALON	unknown	unknown	Winter	Triticum aestivum
 BERKUT	unknown	unknown	Spring	Triticum aestivum
 CHAKWAL86	unknown	unknown	unknown	Triticum aestivum
 CHAM6	unknown	unknown	unknown	Triticum aestivum
-CHINESE_SPRING	Soft	unknown	Winter	Triticum aestivum
+CHINESE_SPRING	Soft	Red	Winter	Triticum aestivum
 CLEAR_WHITE	unknown	unknown	Spring	Triticum aestivum
 DHARWAR_DRY	unknown	unknown	Spring	Triticum aestivum
 HIDHAB	unknown	unknown	unknown	Triticum aestivum
@@ -47,7 +47,7 @@ ACC2	unknown	unknown	unknown	Triticum aestivum
 ACC3	unknown	unknown	unknown	Triticum aestivum
 ACC4	unknown	unknown	unknown	Triticum aestivum
 COKER9663	Soft	unknown	Winter	Triticum aestivum
-CHRIS	unknown	unknown	Spring	Triticum aestivum
+CHRIS	Hard	Red	Spring	Triticum aestivum
 ALSEN	Hard	Red	Spring	Triticum aestivum
 BARLOW	unknown	unknown	Spring	Triticum aestivum
 DANBY	Hard	White	Winter	Triticum aestivum
@@ -61,7 +61,7 @@ BRUNDAGE	Soft	White	Winter	Triticum aestivum
 EGAN	unknown	unknown	unknown	Triticum aestivum
 AGS2020	Soft	unknown	Winter	Triticum aestivum
 ADVANCE	unknown	unknown	unknown	Triticum aestivum
-ERA	unknown	unknown	Spring	Triticum aestivum
+ERA	Hard	Red	Spring	Triticum aestivum
 EXPEDITION	Hard	Red	Winter	Triticum aestivum
 CORR	unknown	unknown	unknown	Triticum aestivum
 FOCUS	unknown	unknown	unknown	Triticum aestivum
@@ -79,7 +79,7 @@ GLACIER	Soft	Red	Winter	Triticum aestivum
 GLUPRO	unknown	unknown	unknown	Triticum aestivum
 CHOTEAU2	unknown	unknown	unknown	Triticum aestivum
 GOODSTREAK	Hard	Red	Winter	Triticum aestivum
-GUARD	unknown	unknown	Spring	Triticum aestivum
+GUARD	Hard	Red	Spring	Triticum aestivum
 ARTHUR	Soft	Red	Winter	Triticum aestivum
 ALICE	Hard	White	Winter	Triticum aestivum
 CONAN	Hard	Red	Spring	Triticum aestivum
@@ -114,7 +114,7 @@ JAMESTOWN	Soft	Red	Winter	Triticum aestivum
 LINKERT	Hard	Red	Spring	Triticum aestivum
 ELGIN_ND	unknown	unknown	unknown	Triticum aestivum
 K1	unknown	unknown	unknown	Triticum turanicum
-MARSHALL	unknown	unknown	Spring	Triticum aestivum
+MARSHALL	Hard	Red	Spring	Triticum aestivum
 FALLER	unknown	unknown	Spring	Triticum aestivum
 K10	unknown	unknown	unknown	Triticum turanicum
 MCGILL	Hard	Red	Winter	Triticum aestivum
@@ -129,7 +129,7 @@ MN03169-2	unknown	unknown	Spring	Triticum aestivum
 K15	unknown	unknown	unknown	Triticum turanicum
 MN97448	unknown	unknown	Spring	Triticum aestivum
 AMIDON	Hard	Red	Spring	Triticum aestivum
-BLUEBOY	unknown	unknown	Winter	Triticum aestivum
+BLUEBOY	Soft	Red	Winter	Triticum aestivum
 K2	unknown	unknown	unknown	Triticum turanicum
 MN97695-4	unknown	unknown	Spring	Triticum aestivum
 K3	unknown	unknown	unknown	Triticum aestivum
@@ -147,13 +147,13 @@ MT1716	unknown	unknown	unknown	Triticum aestivum
 K9	unknown	unknown	unknown	Triticum turanicum
 MT1719	unknown	unknown	unknown	Triticum aestivum
 MT1729	unknown	unknown	unknown	Triticum aestivum
-MASSEY	Soft	unknown	Winter	Triticum aestivum
+MASSEY	Soft	Red	Winter	Triticum aestivum
 MT1731	unknown	unknown	unknown	Triticum aestivum
 CO07W245	Hard	White	Winter	Triticum aestivum
 BRANSON	Soft	Red	Winter	Triticum aestivum
 MCCORMICK	Soft	unknown	Winter	Triticum aestivum
 MT1745	unknown	unknown	unknown	Triticum aestivum
-MEDITERRANEAN	unknown	unknown	Winter	Triticum aestivum
+MEDITERRANEAN	Soft	Red	Winter	Triticum aestivum
 MT1748	unknown	unknown	unknown	Triticum aestivum
 MN00209-3-1	Hard	Red	Spring	Triticum aestivum
 ND2891	unknown	unknown	unknown	Triticum aestivum
@@ -177,7 +177,7 @@ NC07-24-337	unknown	unknown	Winter	Triticum aestivum
 NE05548	Hard	Red	Winter	Triticum aestivum
 NC09-20986	Soft	White	Winter	Triticum aestivum
 PREVAIL	Hard	Red	Spring	Triticum aestivum
-GRANDIN	Soft	unknown	Winter	Triticum aestivum
+GRANDIN	Soft	Red	Winter	Triticum aestivum
 NC11-22289	Soft	Red	Winter	Triticum aestivum
 REDFIELD	Hard	Red	Winter	Triticum aestivum
 KESLE	Hard	Red	Spring	Triticum aestivum
@@ -213,7 +213,7 @@ MT1749	unknown	unknown	unknown	Triticum aestivum
 PIONEER26R15	Soft	unknown	Winter	Triticum aestivum
 SELECT	Hard	Red	Spring	Triticum aestivum
 MTHW0202	unknown	unknown	Spring	Triticum aestivum
-PURPLESTRAW	unknown	unknown	Winter	Triticum aestivum
+PURPLESTRAW	Soft	Red	Winter	Triticum aestivum
 SHIELD	unknown	unknown	unknown	Triticum aestivum
 N87	Hard	unknown	Spring	Triticum aestivum
 RED-MAY	unknown	unknown	Winter	Triticum aestivum
@@ -256,7 +256,7 @@ VA12W-241	unknown	unknown	Winter	Triticum aestivum
 WALWORTH	unknown	unknown	Spring	Triticum aestivum
 ZENDA	Hard	Red	Winter	Triticum aestivum
 BYRD	Hard	Red	Winter	Triticum aestivum
-COKER68-15	unknown	unknown	Winter	Triticum aestivum
+COKER68-15	Soft	Red	Winter	Triticum aestivum
 105	unknown	unknown	unknown	Triticum aestivum
 108	unknown	unknown	unknown	Triticum aestivum
 157	unknown	unknown	unknown	Triticum aestivum
