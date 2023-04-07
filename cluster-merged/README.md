@@ -92,7 +92,10 @@ Analysis by market class. A table showing clusters for each market class shows
 | 4       |  99    | 4     | 169     |
 | 5       |  9     | 5     | 171     |
 
-![4 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged.png)
+![3 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_3c.png)
+![5 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_5c.png)
+![7 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_7c.png)
+
 ![4 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_text.png)
 
 pairs plot of PCA
