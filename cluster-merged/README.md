@@ -16,11 +16,30 @@ Cluster analysis show 3 clusters. A table showing clusters for each population (
 
 | Cluster | 2019 hapmap | PHG470 |
 |---------|-------------|--------|
-| 1       | 16          | 16     |
-| 2       | 9           | 11     |
-| 3       | 152         | 197    |
-| 4       | 104         | 95     |
-| 5       | 56          | 140    |
+| 1       | 46          | 0      |
+| 2       | 220         | 380    |
+| 3       | 51          | 66     |
+| 4       | 9           | 11     |
+| 5       | 11          | 2      |
+
+| Cluster | 2019 hapmap | PHG470 |
+|---------|-------------|--------|
+| 1       | 42          | 223    |
+| 2       | 78          | 81     |
+| 3       | 112         | 88     |
+| 4       | 46          | 0      |
+| 5       | 14          | 8      |
+| 6       | 45          | 59     |
+
+| Cluster | 2019 hapmap | PHG470 |
+|---------|-------------|--------|
+| 1       | 18          | 20     |
+| 2       | 2           | 124    |
+| 3       | 137         | 97     |
+| 4       | 46          | 0      |
+| 5       | 4           | 1      |
+| 6       | 48          | 135    |
+| 7       | 82          | 82     |
 
 Analysis by market class. A table showing clusters for each market class shows
 1. PHG represents each market class
@@ -41,6 +60,15 @@ Analysis by market class. A table showing clusters for each market class shows
 | 3       |  127  | 69   | 153     |
 | 4       |  78   | 3    | 118     |
 | 5       |  16   | 14   | 116     |
+
+| Cluster |  Hard | Soft | unknown |
+|---------|-------|------|---------|
+| 1       |  84   | 37   | 144     |
+| 2       |  51   | 19   | 89      |
+| 3       |  507  | 42   | 108     |
+| 4       |  7    | 7    | 32      |
+| 5       |  3    | 2    | 17      |
+| 6       |  26   | 18   | 60      |
 
 | Cluster | Hard  | Soft | unknown |
 |---------|-------|------|---------|
@@ -80,17 +108,36 @@ Analysis by market class. A table showing clusters for each market class shows
 
 | Cluster |  Red   | White | unknown |
 |---------|--------|-------|---------|
-| 1       |  156   | 26    | 156     |
-| 2       |  99    | 4     | 169     |
-| 3       |  9     | 5     | 171     |
+| 1       |  113   | 14    | 212     |
+| 2       |  96    | 9     | 167     |
+| 3       |  55    | 12    | 118     |
 
 | Cluster |  Red   | White | unknown |
 |---------|--------|-------|---------|
-| 1       |  156   | 26    | 156     |
-| 2       |  99    | 4     | 169     |
-| 3       |  9     | 5     | 171     |
-| 4       |  99    | 4     | 169     |
-| 5       |  9     | 5     | 171     |
+| 1       |  10    | 3     | 33      |
+| 2       |  207   | 29    | 364     |
+| 3       |  41    | 3     | 73      |
+| 4       |  4     | 0     | 169     |
+| 5       |  2     | 0     | 11      |
+
+| Cluster |  Red   | White | unknown |
+|---------|--------|-------|---------|
+| 1       |  90    | 16    | 159     |
+| 2       |  52    | 10    | 97      |
+| 3       |  73    | 5     | 122     |
+| 4       |  10    | 3     | 33      |
+| 5       |  4     | 0     | 18      |
+| 6       |  35    | 1     | 68      |
+
+| Cluster |  Red   | White | unknown |
+|---------|--------|-------|---------|
+| 1       |  113   | 11    | 194     |
+| 2       |  10    | 3     | 33      |
+| 3       |  42    | 9     | 76      |
+| 4       |  40    | 3     | 74      |
+| 5       |  4     | 0     | 16      |
+| 6       |  2     | 0     | 11      |
+| 7       |  53    | 9     | 93      |
 
 ![3 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_3c.png)
 ![5 Clusters](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-merged/images/PHG_merged_5c.png)
