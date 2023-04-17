@@ -1,9 +1,16 @@
-library(cluster)
 library(tidyverse)
 library(factoextra)
 
 pca <- read.table("2019_hapmap_merged.eigenvec2", header = TRUE)
 pca_transform <- as.data.frame(pca[,2:21])
+pca_transform2 <- pca_transform
+eigenval <- scan("2019_hapmap_merged.eigenval")
+for (i in 1:20) {
+  print(i)
+  pca_transform2[,i] <- pca_transform[,i] * sqrt(eigenval[i])
+}
+fviz_nbclust(pca_transform2, kmeans, method = 'wss', k.max = 20)
+
 set.seed(1234)
 km.res <- kmeans(pca_transform, 3, nstart = 25)
 
