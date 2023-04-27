@@ -1,5 +1,5 @@
 # using tcaps:/data/wheat/liftover/2019_hapmap_all.vcf.merged
-# file available at https://files.triticeaetoolbox.org/PHGv2
+# genotype files available at https://files.triticeaetoolbox.org/PHGv2
 # filtered to remove markers MAF  < 0.05 2019_hapmap_all_maf05.vcf
 
 library("SNPRelate")
@@ -11,7 +11,7 @@ snpgdsVCF2GDS(vcf.fn, "ccm_2019_hapmap_merged.gds",  method="biallelic.only")
 genofile <- openfn.gds("ccm_2019_hapmap_merged.gds")
 ccm_pca<-snpgdsPCA(genofile)
 
-vcf.fn <- "genotypes/2019_hapmap_all_maf05.vcf.gz"
+vcf.fn <- "2019_hapmap_all_maf05.vcf.gz"
 snpgdsVCF2GDS(vcf.fn, "ccm_2019_hapmap_merged05.gds",  method="biallelic.only")
 genofile <- openfn.gds("cluster-snprelate/ccm_2019_hapmap_merged05.gds")
 ccm_pca<-snpgdsPCA(genofile)
@@ -22,15 +22,9 @@ pca_perc <- pca/sum(pca)*100
 pve <- data.frame(PC = 1:20, pve = pca/sum(pca)*100)
 a <- ggplot(pve, aes(PC, pve)) + geom_bar(stat = "identity")
 a + ylab("Percentage variance explained") + theme_light()
-ggsave("snprelate-2019_hapmap-var.jpg")
+ggsave("cluster-snprelate/images/snprelate-2019_hapmap-var.jpg")
 
 fviz_nbclust(res, kmeans, method = 'wss', k.max = 20)
-#plot(res[,1], res[,2], pch=mcf2, col=mcf2)
-#set.seed(1234)
-#km.res <- kmeans(res, 3, nstart = 25)
-#fviz_cluster(km.res, data = ccm_pca$eigenvec, geom = c("point"), ellipse.type = "euclid", main = "PHG_merged, 20 PCs")
-#fviz_cluster(km.res, data = ccm_pca$eigenvec, geom = c("text"), ellipse.type = "euclid", main = "PHG_merged, 20 PCs")
-
 
 ibs <- snpgdsIBS(genofile)
 loc <- cmdscale(1 - ibs$ibs, eig=TRUE, k = 2)
@@ -49,7 +43,9 @@ ggscatter(mds.df, x = "Dim1", y = "Dim2", label = rownames(ibs),
 	  size = 1,
 	  ellipse = TRUE,
 	  ellipse.type = "convex",
-	  repel = TRUE)
+	  repel = TRUE,
+	  title = "cluster K-means")
+ggsave("cluster-snprelate/images/snprelate-exome-cluster-kmeans.jpg")
 
 class1 <- read.table("accession-class-hapmap.txt", header = TRUE, sep = "\t")
 class2 <- read.table("accession-class-phgv2.txt", header = TRUE, sep = "\t")
@@ -78,47 +74,42 @@ colnames(mds.df) <- c("Dim1", "Dim2")
 mds.df$class <- mcf
 
 # cluster data using market class
-jpeg("snprelate-2019_hapmap-cluster-market.jpg")
 ggscatter(mds.df, x = "Dim1", y = "Dim2", label = rownames(ibs),
           color = "class",
           palette = "jco",
           size = 1,
-          repel = TRUE)
-
+          repel = TRUE,
+          title = "cluster market class")
+ggsave("cluster-snprelate/images/snprelate-exome-cluster-market.jpg")
 mcf2 <- as.numeric(mcf)
 
-jpeg("snprelate-2019_hapmap-pca.jpg")
-plot(resf[,1], resf[,2], pch=mcfsym, col=mcf, main = "PCA eig1 vs eig2")
-dev.off()
-jpeg("snprelate-2019_hapmap-pca-legend.jpg")
+jpeg("cluster-snprelate/images/snprelate-2019_hapmap-pca.jpg")
 plot(resf[,1], resf[,2], pch=mcfsym, col=mcf, main = "PCA eig1 vs eig2")
 legend("topleft", legend=levels(mcf), text.col=1:nlevels(mcf), pch=1:nlevels(mcf))
 dev.off()
 
+jpeg("cluster-snprelate/images/snprelate-2019_hapmap-MDS.jpg")
 plot(x, y, pch=mcf2, col=mcf2, xlab = "", ylab = "", main = "cmdscale(IBS Distance) market class")
 legend("topright", legend=levels(mcf), text.col=1:nlevels(mcf), pch=1:nlevels(mcf))
 dev.off()
 
-jpeg("snprelate-2019_hapmap-cluster-hardness05.jpg")
+jpeg("cluster-snprelate/images/snprelate-2019_hapmap-cluster-hardness05.jpg")
 plot(x, y, col=class$hardness, xlab = "", ylab = "", main = "cmdscale(IBS Distance) hardness")
 legend("topleft", legend=levels(class$hardness), text.col=1:nlevels(class$hardness))
 dev.off()
 
-jpeg("snprelate-2019_hapmap-cluster-color05.jpg")
+jpeg("cluster-snprelate/images/snprelate-2019_hapmap-cluster-color05.jpg")
 plot(x, y, col=class$color, xlab = "", ylab = "", main = "cmdscale(IBS Distance) color")
 legend("topleft", legend=levels(class$color), text.col=1:nlevels(class$color))
 dev.off()
 
-jpeg("snprelate-2019_hapmap-cluster-season05.jpg")
+jpeg("cluster-snprelate/images/snprelate-2019_hapmap-cluster-season05.jpg")
 plot(x, y, col=class$season, xlab = "", ylab = "", main = "cmdscale(IBS Distance) season")
 legend("topleft", legend=levels(class$season), text.col=1:nlevels(class$season))
 dev.off()
 
-jpeg("snprelate-2019_hapmap-cluster-market.jpg", width = 960, height = 960, point = 20)
-plot(x, y, col=mcf, xlab = "", ylab = "", main = "cmdscale(IBS Distance) MC")
-dev.off()
-jpeg("snprelate-2019_hapmap-cluster-legend.jpg", width = 960, height = 960, point = 20)
-plot(x, y, col=mcf, xlab = "", ylab = "", main = "cmdscale(IBS Distance) MC")
-legend("topright", legend=levels(mcf), text.col=1:nlevels(mcf))
+jpeg("cluster-snprelate/images/snprelate-2019_hapmap-cluster-legend.jpg", width = 960, height = 960, point = 20)
+plot(x, y, pch=mcfsym, col=mcf, xlab = "", ylab = "", main = "cmdscale(IBS Distance) MC")
+legend("topright", legend=levels(mcf), text.col=1:nlevels(mcf), pch=1:nlevels(mcf))
 dev.off()
 
