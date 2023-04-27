@@ -83,6 +83,7 @@ ggscatter(mds.df, x = "Dim1", y = "Dim2", label = rownames(ibs),
 ggsave("cluster-snprelate/images/snprelate-exome-cluster-market.jpg")
 mcf2 <- as.numeric(mcf)
 
+#with ggscatter it is difficult to change symbols and points so switch to plot
 jpeg("cluster-snprelate/images/snprelate-2019_hapmap-pca.jpg")
 plot(resf[,1], resf[,2], pch=mcfsym, col=mcf, main = "PCA eig1 vs eig2")
 legend("topleft", legend=levels(mcf), text.col=1:nlevels(mcf), pch=1:nlevels(mcf))
