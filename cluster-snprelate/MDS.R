@@ -81,7 +81,6 @@ ggscatter(mds.df, x = "Dim1", y = "Dim2", label = rownames(ibs),
           repel = TRUE,
           title = "cluster market class")
 ggsave("cluster-snprelate/images/snprelate-exome-cluster-market.jpg")
-mcf2 <- as.numeric(mcf)
 
 #with ggscatter it is difficult to change symbols and points so switch to plot
 jpeg("cluster-snprelate/images/snprelate-2019_hapmap-pca.jpg")
@@ -90,7 +89,7 @@ legend("topleft", legend=levels(mcf), text.col=1:nlevels(mcf), pch=1:nlevels(mcf
 dev.off()
 
 jpeg("cluster-snprelate/images/snprelate-2019_hapmap-MDS.jpg")
-plot(x, y, pch=mcf2, col=mcf2, xlab = "", ylab = "", main = "cmdscale(IBS Distance) market class")
+plot(x, y, pch=mcfsym, col=mcf, xlab = "", ylab = "", main = "cmdscale(IBS Distance) market class")
 legend("topright", legend=levels(mcf), text.col=1:nlevels(mcf), pch=1:nlevels(mcf))
 dev.off()
 
@@ -109,8 +108,4 @@ plot(x, y, col=class$season, xlab = "", ylab = "", main = "cmdscale(IBS Distance
 legend("topleft", legend=levels(class$season), text.col=1:nlevels(class$season))
 dev.off()
 
-jpeg("cluster-snprelate/images/snprelate-2019_hapmap-cluster-legend.jpg", width = 960, height = 960, point = 20)
-plot(x, y, pch=mcfsym, col=mcf, xlab = "", ylab = "", main = "cmdscale(IBS Distance) MC")
-legend("topright", legend=levels(mcf), text.col=1:nlevels(mcf), pch=1:nlevels(mcf))
-dev.off()
 

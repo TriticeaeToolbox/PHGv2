@@ -1,0 +1,460 @@
+name	hardness	color	season	species
+17C23-2	unknown	unknown	unknown	Triticum aestivum
+5J061865-9	unknown	unknown	unknown	unknown
+6J020219-3	unknown	unknown	unknown	unknown
+A09408S-11_HF	unknown	unknown	unknown	unknown
+A100920S-14	unknown	unknown	unknown	unknown
+A101138S-1	unknown	unknown	unknown	unknown
+AGS2000	Soft	Red	Winter	Triticum aestivum
+AGS2020	Soft	unknown	Winter	Triticum aestivum
+AGS2033	unknown	unknown	unknown	unknown
+AGS2055	unknown	unknown	unknown	unknown
+ALUM-PULLMAN-SWWW	unknown	unknown	unknown	unknown
+ARGA051160-14LE31	unknown	unknown	unknown	unknown
+ARGA06473-9-4-4	unknown	unknown	unknown	unknown
+ARS-AMBER	unknown	unknown	unknown	unknown
+ARS-CHRYSTAL	unknown	unknown	unknown	unknown
+ARS-CRESCENT	unknown	unknown	unknown	unknown
+ARS-SELBU	unknown	unknown	unknown	unknown
+ARS06132-45C	unknown	unknown	unknown	unknown
+ARS20060123-31C	unknown	unknown	unknown	unknown
+ARS970278-2C	unknown	unknown	unknown	unknown
+ARSDH08X103-102C	unknown	unknown	unknown	unknown
+ARSDH08X117-83C	unknown	unknown	unknown	unknown
+ARSWA2J100065C	unknown	unknown	unknown	unknown
+ARTHUR	Soft	Red	Winter	Triticum aestivum
+ADVANCE	unknown	unknown	unknown	Triticum aestivum
+ALICE	Hard	White	Winter	Triticum aestivum
+ALSEN	Hard	Red	Spring	Triticum aestivum
+ALUM	unknown	unknown	unknown	Triticum aestivum
+AMIDON	Hard	Red	Spring	Triticum aestivum
+ANTERO	Hard	White	Winter	Triticum aestivum
+APPLEBY_CLPLUS_ORI2161250CLPLUS	unknown	unknown	unknown	unknown
+AVOCET	Soft	White	Winter	Triticum aestivum
+BEN	unknown	unknown	unknown	Triticum aestivum
+BESS	Soft	Red	Winter	Triticum aestivum
+BLACKHULL	unknown	unknown	unknown	unknown
+BLUEBOY	Soft	Red	Winter	Triticum aestivum
+BRANSON	Soft	Red	Winter	Triticum aestivum
+BREVOR	unknown	unknown	unknown	unknown
+BABE	unknown	unknown	Spring	Triticum aestivum
+BARLOW	unknown	unknown	Spring	Triticum aestivum
+BAUERMEISTER	unknown	unknown	unknown	unknown
+BILLINGS	Hard	Red	Winter	Triticum aestivum
+BOBCAT	unknown	unknown	unknown	Triticum aestivum
+BOBTAIL	unknown	unknown	unknown	unknown
+BOLLES	Hard	Red	Spring	Triticum aestivum
+BOOST	unknown	unknown	unknown	Triticum aestivum
+BRAWLCLPLUS	Hard	Red	Winter	Triticum aestivum
+BRICK	Hard	Red	Spring	Triticum aestivum
+BRIGGS	Hard	Red	Spring	Triticum aestivum
+BRUEHL	unknown	unknown	unknown	unknown
+BRUNDAGE	Soft	White	Winter	Triticum aestivum
+BYRD	Hard	Red	Winter	Triticum aestivum
+C0940610	unknown	unknown	unknown	Triticum aestivum
+CALDWELL	Soft	Red	Winter	Triticum aestivum
+CALEDONIA	Soft	White	Winter	Triticum aestivum
+CATAWBA	unknown	unknown	unknown	Triticum aestivum
+CHOTEAU2	unknown	unknown	unknown	Triticum aestivum
+CLARK	Soft	Red	Winter	Triticum aestivum
+CO15D006R	unknown	unknown	unknown	Triticum aestivum
+CO960293	Hard	Red	Winter	Triticum aestivum
+COKER68-15	Soft	Red	Winter	Triticum aestivum
+COKER9663	Soft	unknown	Winter	Triticum aestivum
+CONAN	Hard	Red	Spring	Triticum aestivum
+CRIMEAN	unknown	unknown	unknown	unknown
+CAMELOT	Hard	Red	Winter	Triticum aestivum
+CAPELLE_DESPREZ-2009	unknown	unknown	unknown	unknown
+CARA	unknown	unknown	Spring	Triticum aestivum
+CDDH-028	unknown	unknown	unknown	unknown
+CDDH-266	unknown	unknown	unknown	unknown
+CHARCOAL	unknown	unknown	unknown	unknown
+CHET	unknown	unknown	unknown	unknown
+CHEYENNE	Hard	Red	Winter	Triticum aestivum
+CHINESE-SPRING	unknown	unknown	unknown	unknown
+CHRIS	Hard	Red	Spring	Triticum aestivum
+CHUKAR	unknown	unknown	Winter	Triticum
+CODA	unknown	unknown	Winter	Triticum aestivum
+CURIOSITYCLPLUS	unknown	unknown	unknown	unknown
+DAYN-PULLMAN-SWWW	unknown	unknown	unknown	unknown
+DH11SRW070-14	Soft	Red	Winter	Triticum aestivum
+DSD4451	unknown	unknown	unknown	Triticum aestivum
+DAGMAR	unknown	unknown	unknown	unknown
+DANBY	Hard	White	Winter	Triticum aestivum
+DAPPS	unknown	unknown	Spring	Triticum aestivum
+DECADE	Hard	Red	Winter	Triticum aestivum
+DENALI	Hard	Red	Winter	Triticum aestivum
+DESERT_KING	unknown	unknown	unknown	unknown
+DIVA	unknown	unknown	unknown	unknown
+DOUBLECLPLUS	unknown	unknown	unknown	unknown
+DUCLAIR-DSEE	unknown	unknown	unknown	unknown
+DUCLAIR	Hard	Red	Spring	Triticum aestivum
+DUSTER	Hard	Red	Winter	Triticum aestivum
+ERNIE	Soft	Red	Winter	Triticum aestivum
+ETOILE-DE-CHOISY	unknown	unknown	unknown	unknown
+EARL_WA8184	unknown	unknown	unknown	unknown
+EGAN	unknown	unknown	unknown	Triticum aestivum
+EGAN-DSEE	unknown	unknown	unknown	unknown
+ELTAN	Soft	White	Winter	Triticum aestivum
+ERA	Hard	Red	Spring	Triticum aestivum
+EVEREST	unknown	unknown	Winter	Triticum aestivum
+EXPEDITION	Hard	Red	Winter	Triticum aestivum
+FL302	Soft	unknown	Winter	Triticum aestivum
+FOSTER	Soft	Red	Winter	Triticum aestivum
+FREEDOM	Soft	Red	Winter	Triticum aestivum
+FULTZ	Soft	Red	Winter	Triticum aestivum
+FALLER	unknown	unknown	Spring	Triticum aestivum
+FARNUM	unknown	unknown	unknown	unknown
+FOOTE	Soft	White	Winter	Triticum aestivum
+FORTUNA	Hard	Red	Spring	Triticum aestivum
+FOUROSIX	unknown	unknown	unknown	Triticum aestivum
+FREEMAN	Hard	Red	Winter	Triticum aestivum
+G20_0026_TITANG	unknown	unknown	unknown	unknown
+GA001138-8E36	Soft	unknown	Winter	Triticum aestivum
+GA00190-7A14	Soft	unknown	Winter	Triticum aestivum
+GA03185-12LE29	Soft	unknown	Winter	Triticum aestivum
+GA05450-EL52	unknown	unknown	unknown	unknown
+GA06493-13LE6	Soft	unknown	Winter	Triticum aestivum
+GLACIER	Soft	Red	Winter	Triticum aestivum
+GALLAGHER	Hard	Red	Winter	Triticum aestivum
+GINA	unknown	unknown	unknown	unknown
+GLEE	Hard	Red	Spring	Triticum aestivum
+GLENN	unknown	unknown	Spring	Triticum aestivum
+GLENN-DSEE	unknown	unknown	unknown	unknown
+GLUPRO	unknown	unknown	unknown	Triticum aestivum
+GOODSTREAK	Hard	Red	Winter	Triticum aestivum
+GRANDIN	Soft	Red	Winter	Triticum aestivum
+GUARD	Hard	Red	Spring	Triticum aestivum
+HARDIRED	unknown	unknown	unknown	unknown
+HART	Soft	Red	Winter	Triticum aestivum
+HFDH_16-1	unknown	unknown	unknown	unknown
+HFDH_43-4	unknown	unknown	unknown	unknown
+HILLIARD	unknown	unknown	unknown	Triticum aestivum
+HOLLEY	Soft	Red	Winter	Triticum aestivum
+HOPE	Hard	Red	Faculative	Triticum aestivum
+HOWELL	Soft	Red	Winter	Triticum aestivum
+HT080125LU	unknown	unknown	unknown	unknown
+HUNGARIAN	unknown	unknown	unknown	unknown
+HUNTER	Soft	Red	Winter	Triticum aestivum
+HUSSAR	unknown	unknown	unknown	unknown
+HV9W03-1596R	Hard	Red	Winter	Triticum aestivum
+HATCHER	Hard	Red	Winter	Triticum aestivum
+HI-LINE	Hard	Red	Spring	Triticum aestivum
+IDN15-72458DH	unknown	unknown	unknown	unknown
+IDO1005	unknown	unknown	unknown	unknown
+IDO1101	unknown	unknown	unknown	unknown
+IDO1203S-A_HF	unknown	unknown	unknown	unknown
+IDO1403S	unknown	unknown	unknown	Triticum aestivum
+IDO1404_A040128S	unknown	unknown	unknown	unknown
+IDO1405S	unknown	unknown	unknown	Triticum aestivum
+IDO1603S	unknown	unknown	unknown	Triticum aestivum
+IDO1701S_A09438S-6-33_H25	unknown	unknown	unknown	unknown
+IDO1702_A0721S-10_H25	unknown	unknown	unknown	unknown
+IDO1708	unknown	unknown	unknown	unknown
+IDO1802_A0721S-5	unknown	unknown	unknown	unknown
+IDO1805_A08601S-3	unknown	unknown	unknown	unknown
+IDO444	Hard	White	Winter	Triticum aestivum
+IDO621	unknown	unknown	unknown	unknown
+IL00-8061	Soft	Red	Winter	Triticum aestivum
+IL00-8530	Soft	Red	Winter	Triticum aestivum
+IL02-18228	Soft	Red	Winter	Triticum aestivum
+IL07-20728	Soft	Red	Winter	Triticum aestivum
+IL07-4415	Soft	Red	Winter	Triticum aestivum
+IL96-6472	Soft	unknown	Winter	Triticum aestivum
+IL97-1828	Soft	unknown	Winter	Triticum aestivum
+INW0316	Soft	unknown	Winter	Triticum aestivum
+IDEAL	Hard	Red	Winter	Triticum aestivum
+INGOT	unknown	unknown	Spring	Triticum aestivum
+IRV_OR2110679	unknown	unknown	unknown	unknown
+J98C0002	unknown	unknown	unknown	unknown
+JAMESTOWN	Soft	Red	Winter	Triticum aestivum
+JD	unknown	unknown	unknown	unknown
+JAGALENE	Hard	Red	Winter	Triticum aestivum
+JAGGER	Hard	Red	Winter	Triticum aestivum
+JASPER	unknown	unknown	unknown	unknown
+JERRY	Hard	Red	Winter	Triticum aestivum
+JOE	unknown	unknown	unknown	Triticum aestivum
+JUDEE	Hard	Red	Winter	Triticum aestivum
+KS05HW14-3	Hard	unknown	Winter	Triticum aestivum
+KS05HW14-DSEE	unknown	unknown	unknown	unknown
+KS061193K-2	Hard	Red	Winter	Triticum aestivum
+KS090387K-20	Hard	Red	Winter	Triticum aestivum
+KS13H-9	Hard	Red	Winter	Triticum aestivum
+KS14H-180-4	Hard	Red	Winter	Triticum aestivum
+KXB-01	unknown	unknown	unknown	unknown
+KANMARK	Hard	Red	Winter	Triticum aestivum
+KASEBERG	unknown	unknown	unknown	unknown
+KELSE	Hard	Red	Spring	Triticum aestivum
+KHARKOF	Hard	Red	Winter	Triticum aestivum
+KINGBIRD-1	unknown	unknown	unknown	unknown
+LA03136E7	unknown	unknown	unknown	unknown
+LA09264C-P2	unknown	unknown	unknown	unknown
+LA841	unknown	unknown	Winter	Triticum aestivum
+LA95135-RALEIGH-SRWW	unknown	unknown	unknown	unknown
+LCSCHROME	Hard	Red	Winter	Triticum aestivum
+LANG-MN	unknown	unknown	unknown	Triticum aestivum
+LANNING	unknown	unknown	unknown	Triticum aestivum
+LANNING-DSEE	unknown	unknown	unknown	unknown
+LEGACY	unknown	unknown	unknown	unknown
+LINKERT	Hard	Red	Spring	Triticum aestivum
+LONERIDER	Hard	Red	Winter	Triticum aestivum
+LOOSDORFER	unknown	unknown	unknown	unknown
+LOUISE	Soft	White	Spring	Triticum aestivum
+MASSEY	Soft	Red	Winter	Triticum aestivum
+MCCORMICK	Soft	unknown	Winter	Triticum aestivum
+MD01W28-08-11	Soft	unknown	Winter	Triticum aestivum
+MEDITERRANEAN	Soft	Red	Winter	Triticum aestivum
+MN00187-3-1	unknown	unknown	Spring	Triticum aestivum
+MN00209-3-1	Hard	Red	Spring	Triticum aestivum
+MN02072-7	Hard	Red	Spring	Triticum aestivum
+MN03169-2	unknown	unknown	Spring	Triticum aestivum
+MN05209	unknown	unknown	Spring	Triticum aestivum
+MN07098-6-LR34	unknown	unknown	unknown	Triticum aestivum
+MN97448	unknown	unknown	Spring	Triticum aestivum
+MN97518	unknown	unknown	Spring	Triticum aestivum
+MN97695-4	unknown	unknown	Spring	Triticum aestivum
+MO080104	Soft	Red	Winter	Triticum aestivum
+MT1601	unknown	unknown	unknown	Triticum aestivum
+MT1617	unknown	unknown	unknown	Triticum aestivum
+MT1621	unknown	unknown	unknown	Triticum aestivum
+MT1673	unknown	unknown	unknown	Triticum aestivum
+MT1716	unknown	unknown	unknown	Triticum aestivum
+MT1716-DSEE	unknown	unknown	unknown	unknown
+MT1719	unknown	unknown	unknown	Triticum aestivum
+MT1729	unknown	unknown	unknown	Triticum aestivum
+MT1731	unknown	unknown	unknown	Triticum aestivum
+MT1732	unknown	unknown	unknown	Triticum aestivum
+MT1734	unknown	unknown	unknown	Triticum aestivum
+MT1736	unknown	unknown	unknown	Triticum aestivum
+MT1738	unknown	unknown	unknown	Triticum aestivum
+MT1739	unknown	unknown	unknown	Triticum aestivum
+MT1742	unknown	unknown	unknown	Triticum aestivum
+MT1745	unknown	unknown	unknown	Triticum aestivum
+MT1748	unknown	unknown	unknown	Triticum aestivum
+MT1749	unknown	unknown	unknown	Triticum aestivum
+MTHW0202	unknown	unknown	Spring	Triticum aestivum
+MACE	Hard	Red	Winter	Triticum aestivum
+MADSEN	unknown	unknown	unknown	unknown
+MARSHALL	Hard	Red	Spring	Triticum aestivum
+MASAMI	unknown	unknown	unknown	unknown
+MATTERN	Hard	unknown	Winter	Triticum aestivum
+MCGILL	Hard	Red	Winter	Triticum aestivum
+MELACLPLUS	unknown	unknown	unknown	unknown
+MELBA	unknown	unknown	unknown	unknown
+MILLENIUM	unknown	unknown	unknown	Triticum aestivum
+MILLIE_OR2120311H	unknown	unknown	unknown	unknown
+MIWOK	unknown	unknown	Spring	Triticum aestivum
+MOTT	Hard	Red	Spring	Triticum aestivum
+N87	Hard	unknown	Spring	Triticum aestivum
+N92172-7	unknown	unknown	unknown	unknown
+NC-NEUSE	Soft	unknown	Winter	Triticum aestivum
+NC05-19896	Soft	unknown	Winter	Triticum aestivum
+NC07-24-337	unknown	unknown	Winter	Triticum aestivum
+NC08-23383	Soft	unknown	Winter	Triticum aestivum
+NC09-20986	Soft	White	Winter	Triticum aestivum
+NC11-22289	Soft	Red	Winter	Triticum aestivum
+NC11-331-6	unknown	unknown	Winter	Triticum aestivum
+NC12-22844	unknown	unknown	unknown	Triticum aestivum
+NC13-20076	Soft	Red	Winter	Triticum aestivum
+NC8248-1	Soft	unknown	Winter	Triticum aestivum
+NC8248-20	unknown	unknown	Winter	Triticum aestivum
+ND2891	unknown	unknown	unknown	Triticum aestivum
+ND466-13	unknown	unknown	unknown	unknown
+ND695	unknown	unknown	unknown	Triticum aestivum
+ND721	unknown	unknown	unknown	Triticum aestivum
+ND744	unknown	unknown	unknown	Triticum aestivum
+ND820	unknown	unknown	unknown	Triticum aestivum
+ND828	unknown	unknown	unknown	Triticum aestivum
+ND832	unknown	unknown	unknown	Triticum aestivum
+NE10589	Hard	Red	Winter	Triticum aestivum
+NUPLAINS	Hard	White	Winter	Triticum aestivum
+NW13493	unknown	unknown	unknown	Triticum aestivum
+NORDEN	unknown	unknown	Spring	Triticum aestivum
+NORWEST_553	unknown	unknown	unknown	unknown
+NORWEST_TANDEM	unknown	unknown	unknown	unknown
+OAKES	unknown	unknown	Winter	Triticum aestivum
+OASIS	unknown	unknown	unknown	unknown
+OGLETHORPE	Soft	unknown	Winter	Triticum aestivum
+OK06114	Hard	Red	Winter	Triticum aestivum
+OK11709W-139122-1W	unknown	unknown	unknown	Triticum aestivum
+OK11D25056	unknown	unknown	Winter	Triticum aestivum
+OK12716	unknown	unknown	Winter	Triticum aestivum
+OK13209	Hard	Red	Winter	Triticum aestivum
+OK13621	Hard	Red	Winter	Triticum aestivum
+OR2080641	unknown	unknown	unknown	unknown
+OR2090473	unknown	unknown	unknown	unknown
+OR2121086	unknown	unknown	unknown	unknown
+OR2130021R	unknown	unknown	unknown	unknown
+OR2130755	unknown	unknown	unknown	unknown
+OR5170022	unknown	unknown	unknown	unknown
+ORCF-102	unknown	unknown	unknown	unknown
+ORCF-103	unknown	unknown	unknown	unknown
+ORI2150031CLPLUS	unknown	unknown	unknown	unknown
+ORI2150061CLPLUS	unknown	unknown	unknown	unknown
+OAHE	Hard	Red	Winter	Triticum aestivum
+OKLEE	Hard	Red	Spring	Triticum aestivum
+OTTO	unknown	unknown	unknown	unknown
+OVERLEY	Hard	Red	Winter	Triticum aestivum
+OXEN	Hard	Red	Spring	Triticum aestivum
+P1_119350	unknown	unknown	unknown	unknown
+P1_277671	unknown	unknown	unknown	unknown
+P1_477891	unknown	unknown	unknown	unknown
+P1_480285	unknown	unknown	unknown	unknown
+P1_565204	unknown	unknown	unknown	unknown
+P1_572661	unknown	unknown	unknown	unknown
+P1_625089	unknown	unknown	unknown	unknown
+P1_626295	unknown	unknown	unknown	unknown
+PEMBROKE	Soft	Red	Winter	Triticum aestivum
+PIONEER-25R55	unknown	unknown	unknown	unknown
+PIONEER-25R80	unknown	unknown	unknown	unknown
+PIONEER-26R15	Soft	unknown	Winter	Triticum aestivum
+PIONEER25R18	Soft	unknown	Winter	Triticum aestivum
+PIONEER26R61	Soft	Red	Winter	Triticum aestivum
+PURPLESTRAW	Soft	Red	Winter	Triticum aestivum
+PANHANDLE	Hard	Red	Winter	Triticum aestivum
+PARSHALL	unknown	unknown	Spring	Triticum aestivum
+PLATTE	Hard	White	Winter	Triticum aestivum
+PREVAIL	Hard	Red	Spring	Triticum aestivum
+PRITCHETT4J0713366C	unknown	unknown	unknown	unknown
+PUMA	unknown	unknown	unknown	unknown
+RB07	Hard	Red	Spring	Triticum aestivum
+RAY	unknown	unknown	unknown	Triticum aestivum
+REDFIFE	unknown	unknown	unknown	Triticum aestivum
+REDFIELD	Hard	Red	Winter	Triticum aestivum
+RESILIENCECLWA8187	unknown	unknown	unknown	unknown
+RIOBLANCO	Hard	White	Winter	Triticum aestivum
+ROBIDOUX	Hard	Red	Winter	Triticum aestivum
+ROLLAG	Hard	Red	Spring	Triticum aestivum
+ROSALYN	unknown	unknown	unknown	unknown
+RUSS	Hard	Red	Spring	Triticum aestivum
+RYANWA8214	unknown	unknown	unknown	unknown
+S0900230	unknown	unknown	unknown	unknown
+S0900317	unknown	unknown	unknown	unknown
+S0900366	unknown	unknown	unknown	unknown
+SALUDA	Soft	Red	Winter	Triticum aestivum
+SCTX98-27C1	Soft	unknown	Winter	Triticum aestivum
+SD08080	Hard	White	Winter	Triticum aestivum
+SD4011	Hard	Red	Spring	Triticum aestivum
+SD4181	Hard	Red	Spring	Triticum aestivum
+SD4205	unknown	unknown	unknown	Triticum aestivum
+SD4215	Hard	Red	Spring	Triticum aestivum
+SD4243	Hard	Red	Spring	Triticum aestivum
+SD4343	Hard	Red	Spring	Triticum aestivum
+SD4471	unknown	unknown	unknown	Triticum aestivum
+SHIRLEY	Soft	Red	Winter	Triticum aestivum
+SS8412	unknown	unknown	unknown	unknown
+SS8641	Soft	unknown	Winter	Triticum aestivum
+STEINWEDEL	unknown	unknown	unknown	unknown
+SW07071-2	unknown	unknown	unknown	unknown
+SW08004-1	unknown	unknown	unknown	unknown
+SW13019-1	unknown	unknown	unknown	unknown
+SW8002-6	unknown	unknown	unknown	unknown
+SABIN	Hard	Red	Spring	Triticum aestivum
+SAMARA	unknown	unknown	Winter	Triticum aestivum
+SCOUT66	Hard	Red	Winter	Triticum aestivum
+SEAHAWK	unknown	unknown	unknown	unknown
+SEBASTA_BLUE	unknown	unknown	unknown	unknown
+SELECT	Hard	Red	Spring	Triticum aestivum
+SEQUOIAWA8180	unknown	unknown	unknown	unknown
+SHIELD	unknown	unknown	unknown	Triticum aestivum
+SKILES	unknown	unknown	unknown	unknown
+SNOWMASS	Hard	White	Winter	Triticum aestivum
+SONORA	Soft	unknown	Spring	Triticum aestivum
+SPRINTER_WA8118	unknown	unknown	unknown	unknown
+STEPHENS	Soft	White	Winter	Triticum aestivum
+SURPASS	unknown	unknown	unknown	Triticum aestivum
+TAM111	Hard	Red	Winter	Triticum aestivum
+TAM112	Hard	unknown	Winter	Triticum aestivum
+TAM114	Hard	Red	Winter	Triticum aestivum
+TAM203	Hard	Red	Winter	Triticum aestivum
+TAM204	Hard	Red	Winter	Triticum aestivum
+TAM303	Hard	Red	Winter	Triticum aestivum
+TAM304	Hard	Red	Winter	Triticum aestivum
+TAM305	Hard	Red	Winter	Triticum aestivum
+THATCHER	Hard	Red	Spring	Triticum aestivum
+TRIBUTE	Soft	Red	Winter	Triticum aestivum
+TX04M410164	Hard	Red	Winter	Triticum aestivum
+TX11A001295	Hard	Red	Winter	Triticum aestivum
+TX12M4068	Hard	Red	Winter	Triticum aestivum
+TEKOAWA8189	unknown	unknown	unknown	unknown
+THATCHER	Hard	Red	Spring	Triticum aestivum
+TIPAI	unknown	unknown	unknown	unknown
+TOM	Hard	Red	Spring	Triticum aestivum
+TRAVERSE	Hard	Red	Spring	Triticum aestivum
+TVGELA-DN	unknown	unknown	unknown	unknown
+U6890-2-1009	unknown	unknown	unknown	unknown
+U6893-1-1018	unknown	unknown	unknown	unknown
+UC1771	unknown	unknown	unknown	unknown
+UC1884	unknown	unknown	unknown	Triticum aestivum
+UI-PLATINUM	unknown	unknown	unknown	unknown
+UI-STONE	unknown	unknown	unknown	unknown
+UICASTLECLPLUS	unknown	unknown	unknown	unknown
+UIL07-28017B	unknown	unknown	unknown	unknown
+UIL09-15702A	unknown	unknown	unknown	unknown
+UIMAGICCLPLUS	unknown	unknown	unknown	unknown
+UIPALOUSECLPLUS	unknown	unknown	unknown	unknown
+UISPARROWIDO1108DH	unknown	unknown	unknown	unknown
+USG3209	Soft	unknown	Winter	Triticum aestivum
+USG3555	Soft	Red	Winter	Triticum aestivum
+VA05W-151	Soft	unknown	Winter	Triticum aestivum
+VA09W-52	Soft	Red	Winter	Triticum aestivum
+VA10W-21	Soft	Red	Winter	Triticum aestivum
+VA12W-241	unknown	unknown	Winter	Triticum aestivum
+WA8124	unknown	unknown	unknown	unknown
+WA8127	unknown	unknown	unknown	unknown
+WA8128	unknown	unknown	unknown	unknown
+WA8232	unknown	unknown	unknown	unknown
+WA8234	unknown	unknown	unknown	unknown
+WA8236CLPLUS	unknown	unknown	unknown	unknown
+WA8252	unknown	unknown	unknown	unknown
+WA8259	unknown	unknown	unknown	unknown
+WA8261	unknown	unknown	unknown	unknown
+WA8263	unknown	unknown	unknown	unknown
+WA8265CLPLUS	unknown	unknown	unknown	unknown
+WA8266CLPLUS.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8268.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8270.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8271.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8273.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8274CLPLUS.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8275CLPLUS.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8277.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8278.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8279CLPLUS.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8280CLPLUS.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8281.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8283.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8284.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8285.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8286.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8287.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8288.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8289.G.VCF.GZ	unknown	unknown	unknown	unknown
+WA8295_CLPLUS	unknown	unknown	unknown	unknown
+WA8299	unknown	unknown	unknown	unknown
+WA8300	unknown	unknown	unknown	unknown
+WA8301	unknown	unknown	unknown	unknown
+WA8302	unknown	unknown	unknown	unknown
+WA8306_CLPLUS	unknown	unknown	unknown	unknown
+WA8307	unknown	unknown	unknown	Triticum aestivum
+WA8312	unknown	unknown	unknown	unknown
+WA8314	unknown	unknown	unknown	unknown
+WA8315	unknown	unknown	unknown	unknown
+WB-REDHAWK	Hard	Red	Winter	Triticum aestivum
+WHITE-LAMMAS	unknown	unknown	unknown	unknown
+WALWORTH	unknown	unknown	Spring	Triticum aestivum
+WARHORSE	unknown	unknown	Winter	Triticum aestivum
+WENDY	Hard	White	Winter	Triticum aestivum
+WESLEY	Hard	Red	Winter	Triticum aestivum
+WHETSTONE_NOT-ORIGINAL-PARENTS	unknown	unknown	unknown	unknown
+WHIT.G.VCF.GZ	unknown	unknown	unknown	unknown
+WICHITA	Hard	Red	Winter	Triticum aestivum
+XERPHA.G.VCF.GZ	unknown	unknown	unknown	unknown
+YORKTOWN	unknown	unknown	unknown	unknown
+YELLOWSTONE	Hard	Red	Winter	Triticum aestivum
+YELLOWSTONE-DSEE	unknown	unknown	unknown	unknown
+ZGR-LINE2607-8.G.VCF.GZ	unknown	unknown	unknown	unknown
+ZAK	unknown	unknown	unknown	unknown
+ZENDA	Hard	Red	Winter	Triticum aestivum
+WC16REG01643	unknown	unknown	unknown	unknown
+WC16REG01644	unknown	unknown	unknown	unknown
