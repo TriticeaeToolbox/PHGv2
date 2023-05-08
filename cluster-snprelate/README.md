@@ -1,8 +1,8 @@
 <h2>SNPRelate IBS then MDS</h2>
-SNPRelate R package using
-snpgdsIBS: Identity-By-State (IBS) - calculate the fraction of identity by state for each pair of samples
-cmdscale: Classical Multidementional Scaling, also known as principal coordinates analysis
-
+<li>SNPRelate R package using
+<li>snpgdsIBS: Identity-By-State (IBS) - calculate the fraction of identity by state for each pair of samples
+<li>cmdscale: Classical Multidementional Scaling, also known as principal coordinates analysis
+<br>
 combined PHG472 and 2019_hapmap, both data sets are filtered before merging with maf < 0.5 and missing > 50% removed
 
 cluster data without market class
