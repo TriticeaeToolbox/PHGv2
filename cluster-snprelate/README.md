@@ -23,6 +23,6 @@ PHG470<br>
 
 2019_hapmap<br>
 
-![IBS MDS]((https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-2019_hapmap-ibs-mds-all.png)
+![IBS MDS](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-2019_hapmap-ibs-mds-all.png)
 
 ![PHG470 market class](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-2019_hapmap-ibs-mds-marketclass.png")
