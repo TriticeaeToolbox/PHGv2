@@ -5,7 +5,7 @@
 <br><br>
 
 <h2>Can market class be used to cluster data?</h2>
-<li>results identiry clusters for HardRedWinter, SoftRedWinter, HardRedSpring
+<li>results identify clusters for HardRedWinter, SoftRedWinter, HardRedSpring
 
 combined PHG472 and 2019_hapmap, both data sets are filtered before merging with maf < 0.5 and missing > 50% removed
 
@@ -18,7 +18,7 @@ cluster data using market class
 cluster data using PC1 and PC2
 ![PCA](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-2019_hapmap-pca.jpg)
 
-for better resolution look at the genotype data sets indipendintly<br>
+for better resolution look at the genotype data sets independently<br>
 PHG470<br>
 
 ![IBS MDS](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-phg470-ibs-mds-all.png)
