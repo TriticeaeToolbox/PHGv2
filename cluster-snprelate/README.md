@@ -17,7 +17,7 @@ cluster data using PC1 and PC2
 for better resolution look at the genotype data sets indipendintly<br>
 PHG470<br>
 
-![IBS MDS]((https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-phg470-ibs-mds-all.png)
+![IBS MDS](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-phg470-ibs-mds-all.png)
 
 ![PHG470 market class](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-phg470-ibs-mds-marketclass.png)
 
