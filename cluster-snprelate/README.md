@@ -1,11 +1,11 @@
 <h2>SNPRelate IBS then MDS</h2>
-<li>SNPRelate R package using
+<li>SNPRelate R package
 <li>snpgdsIBS: Identity-By-State (IBS) - calculate the fraction of identity by state for each pair of samples
 <li>cmdscale: Classical Multidementional Scaling, also known as principal coordinates analysis
 <br><br>
 
 <h2>Can market class be used to cluster data?</h2>
-<li>results show different clusters for HardRedWinter, SoftRedWinter, HardRedSpring
+<li>results identiry clusters for HardRedWinter, SoftRedWinter, HardRedSpring
 
 combined PHG472 and 2019_hapmap, both data sets are filtered before merging with maf < 0.5 and missing > 50% removed
 
