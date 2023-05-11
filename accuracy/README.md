@@ -5,3 +5,5 @@
 ![kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/snprelate-histogram-bymarker.png)
 
 ![kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/snprelate-ibs-mds-population.png)
+
+![kmeans](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/snprelate-ibs-mds-population-onlydup.png)
