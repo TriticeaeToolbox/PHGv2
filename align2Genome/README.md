@@ -1,3 +1,19 @@
-<h2>Align Illumina 9K and 90K data to genome assembly</h2>
+Align Illumina 9K and 90K data to genome assembly
+
+Converting Illumina AB into VCF
+Illumina data loaded into T3 database as Ref = A_allele, Alt = B_allele
+The Illumina 90K data can be combined with similar array data and analyzed with website tools but can not be used in PHG, Beagle, or merged with GBS data because the format is not aligned (strand and orientation) with reference genome
+
+1. use samtools faidx with the iwgsc2.1 assembly to get Ref allele
+2. compare Ref allele to A_allele and B_allele
+
+
+| match	                | Ref and Alt changes             | genotypes changes |
+| Ref = A_allele        | unchanged                       | unchanged  |
+| Ref = B_allele        | Ref = B_allele, Alt = A_allele  | compliment |
+| Ref = comp(A_allele)	| Ref = comp(A_allele) Alt = comp(B_allele) | unchanged  |
+| Ref = comp(B_allele)	| Ref = comp(B_allele) Alt = comp(A_allele) | compliment |
+
+
 
 
