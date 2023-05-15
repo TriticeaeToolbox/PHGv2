@@ -6,5 +6,5 @@ The PHG database was used to impute genotypes from 9K and 90K Illumina to high d
 
 * [Aligning Illumina data to Reference Assembly](https://github.com/TriticeaeToolbox/PHGv2/blob/main/align2Genome)
 * [Imputation protocol](https://github.com/TriticeaeToolbox/PHGv2/tree/main/imputation)
-* [Testing Imputation accuracy](https://wheat.triticeaetoolbox.org/static_content/files/PHG_accuracy_v2.docx) 
+* [Testing Imputation accuracy](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/PHG_accuracy_v2.pdf) 
 * [Imputation accuracy by market class](https://github.com/TriticeaeToolbox/PHGv2/tree/main/cluster-snprelate)
