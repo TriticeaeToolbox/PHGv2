@@ -8,3 +8,4 @@ The PHG database was used to impute genotypes from 9K and 90K Illumina to high d
 * [Imputation protocol](https://github.com/TriticeaeToolbox/PHGv2/tree/main/imputation)
 * [Testing Imputation accuracy](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/PHG_accuracy_v2.pdf) 
 * [Imputation accuracy by market class](https://github.com/TriticeaeToolbox/PHGv2/tree/main/cluster-snprelate)
+* [Imputation on demand from PHG](https://github.com/TriticeaeToolbox/PHGv2/tree/main/imputation2)
