@@ -1,6 +1,6 @@
 # Imputed genotypes for previously computed paths and methods
 
-This is much faster than the full imputation pipeline. 
+This is much faster than the full imputation pipeline by using previously computed readMethod and pathMethod 
 This uses the PathsToVCF plugin. 
 
 * The configuration file should contain the path and method used to impute the VCF data.
