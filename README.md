@@ -14,5 +14,10 @@ The PHG database was used to impute genotypes from 9K and 90K Illumina to high d
 * [Breedbase Integration using FTP site](https://files.triticeaetoolbox.org/)
   - look for section labeled "Imputed Protocols"
 * [Imputation on demand from PHG](https://github.com/TriticeaeToolbox/PHGv2/tree/main/imputation-precomputed/README.md)
+* GWAS Analysis of original genotype data
+  - perform GWAS on each genotype project and all traits
+  - [combine GWAS results using z-value for identical markers](https://wheat.triticeaetoolbox.org/genome/gwas.pl)
+* GWAS Analysis of imputed data
+  - perform GWAS on merged imputed genotypes and all traits
 * [BrAPI access to PHG](https://bitbucket.org/bucklerlab/phg_webktor_service/src/master/)
   - docker container for accessing genotype information through Breeding API
