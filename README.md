@@ -23,5 +23,5 @@ The PHG database was used to impute genotypes from 9K and 90K Illumina to high d
   - docker container for accessing genotype information through Breeding API
 * [R script access to PHG](https://maize-genetics.github.io/rPHG/)
   - R package for accessing th Practical Haplotype Graph, requires Java JDK and rJava
-* [TASSEL access to PHG]
+* TASSEL access to PHG
   - access to allow building and viewing the PHG graph
