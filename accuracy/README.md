@@ -5,8 +5,8 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "acc
 
 | Low density Protocol | common accessions | accuracy common markers | accuracy all markers |
 |----------|-------------------|----------------|-------------|
-| 90K      |      80           | 93.6%          |             |
-| 9K       |                   | 93.6%          |             |
+| 90K      |      80           | 93.6%          |   92.9%     |
+| 9K       |      64           | 92.4%          |   92.2%     |
 
 <li> for imputed accessions that were used in creating the PHG, compare the imputed genotypes to the genotypes from those used to create the PHG
 <li> for imputed accessions not contained in the PHG, compare the imputed genotypes to the genotypes in the 2019_hapmap protocol
