@@ -35,7 +35,11 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "acc
 
 ![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-90K-notinPHG.png)
 
-**nearest genetic distance for each accession** - Look at each accession from 90K notinPHG and finding the nearest accession in PHG. No correlation with genetic distance and accuracy
+**nearest genetic distance for each accession** - For each accession from 90K notinPHG and finding the nearest accession in PHG. No correlation with genetic distance and accuracy
+
+**percentage match to PHG for each accession** - For each accession from 90K find percentage match to any accession in PHG. If there is a close match to something in PHG I expect the imputation accuracy to be high.
+
+![Imputed Accuracy vs PHG match](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/accuracyVsmatch.png)
 
 
 
