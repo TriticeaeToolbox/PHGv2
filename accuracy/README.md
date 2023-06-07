@@ -19,7 +19,7 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "acc
  
 **accessions in the PHG PCA** - merge inPHG accessions with PHG accessions then PCA. The clusters are well defined but seperate
 
-![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-pca-90K-inRHG.png)
+![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-pca-90K-inPHG.png)
 
 **accessions in the PHG IBS Cmdscale** - MDS analysis shows the same clusters
 
@@ -29,7 +29,7 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "acc
 
 **accession not in the PHG PCA** - merge notinPHG accessions with PHG accessions then PCA. The clusters for notinPHG are a little more spread out
 
-![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-pca-90K-notinRHG.png)
+![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-pca-90K-notinPHG.png)
 
 **accessions not in the PHG Cmdscale** - MDS analysis show the same clusters
 
