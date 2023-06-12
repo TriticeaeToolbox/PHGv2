@@ -35,6 +35,9 @@ dev.copy(png,"images/snprelate-90K-inPHG.png"); dev.off()
 
 #plot accuracy (compare each genotype) to (distance of imputed from 2019_hapmap)
 #accuracy <- read.table("results-90K-imp-com-inPHG-byaccn.csv", "\t")
+name1 <- c()
+name2 <- c()
+dist <- c()
 euc.dist <- function(x1, x2) sqrt(sum((x1 - x2) ^ 2))
 for (i in 1:50) {
   min <- 100
@@ -51,9 +54,17 @@ for (i in 1:50) {
     }
   }
   cat(i," ",best," ",ibs$sample.id[i]," ",ibs$sample.id[best]," ",min,"\n")
-  cat(loc$points[i,1]," ",loc$points[i,2],"\n")
-  cat(loc$points[best,1]," ",loc$points[best,2],"\n")
+  #cat(loc$points[i,1]," ",loc$points[i,2],"\n")
+  #cat(loc$points[best,1]," ",loc$points[best,2],"\n")
+  name1 <- rbind(name1, ibs$sample.id[i])
+  name2 = rbind(name2, ibs$sample.id[best])
+  dist = rbind(dist, min)
 }
+df <- data.frame(
+  name1=name1,
+  name2=name2,
+  dist=dist)
+write.csv(df, file="90K-inphg-genetic-distance.csv")
 # majority of "inPHG" accessions are cloesest in distance to WENDY
 
 vcf.fn <- "90KnotinPHGv2-strand.vcf.merged" #includes duplicates
@@ -87,7 +98,6 @@ dev.copy(png,"images/snprelate-90K-notinPHG.png"); dev.off()
 #plot accuracy (compare each genotype) to (distance of imputed from 2019_hapmap)
 #accuracy <- read.table("results-90K-imp-com-inPHG-byaccn.csv", "\t")
 euc.dist <- function(x1, x2) sqrt(sum((x1 - x2) ^ 2))
-#library("proxy") should use 104
 for (i in 1:53) {
   min <- 100
   for (j in 54:516) {
@@ -103,6 +113,7 @@ for (i in 1:53) {
     }
   }
   cat(i," ",best," ",ibs$sample.id[i]," ",ibs$sample.id[best]," ",min,"\n")
-  cat(loc$points[i,1]," ",loc$points[i,2],"\n")
-  cat(loc$points[best,1]," ",loc$points[best,2],"\n")
+  #cat(loc$points[i,1]," ",loc$points[i,2],"\n")
+  #cat(loc$points[best,1]," ",loc$points[best,2],"\n")
 }
+
