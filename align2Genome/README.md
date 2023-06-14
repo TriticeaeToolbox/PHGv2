@@ -25,5 +25,11 @@ Compliment genotypes
 
 https://www.illumina.com/documents/products/technotes/technote_topbot.pdf
 
+**compare 90K to 2019_hapmap**
 
+120 accessions and 13,828 markers
+
+![by marker](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/90Kvs2019hapmap-marker.png)
+
+![by accession](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/90Kvs2019hapmap-accn.png)
 
