@@ -2,7 +2,7 @@
 
 1. Align Illumina Infinium data to reference
    - align2Genome/align_90K.php
-   - align2Genome/corredt_genotypes_90K.pl
+   - align2Genome/correct_genotypes_90K.pl
 
 2. Run imputation for VCF file
    - imputation/run-imputation.sh
