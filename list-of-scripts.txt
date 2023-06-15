@@ -1,4 +1,4 @@
-* List of scripts used in PHG imputation
+# List of scripts used in PHG imputation
 
 1. Align Illumina Infinium data to reference
    align2Genome/align_90K.php
