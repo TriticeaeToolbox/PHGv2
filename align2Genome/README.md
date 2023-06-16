@@ -28,7 +28,7 @@ https://www.illumina.com/documents/products/technotes/technote_topbot.pdf
 
 **compare 90K to 2019_hapmap**
 
-130 accessions and 13,828 of 21,473 markers in common
+130 accessions and 13,828 of 21,473 markers in common. Average accuracy between markers is 92%.
 
 ![by marker](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/90Kvs2019hapmap-marker.png)
 
