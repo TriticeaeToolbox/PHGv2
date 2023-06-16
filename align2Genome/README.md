@@ -6,17 +6,17 @@ The Illumina 90K data can be combined with similar array data and analyzed with 
 
 1. use samtools faidx with the iwgsc2.1 assembly to get Ref allele
 2. compare Ref allele to A_allele and B_allele
-3. correct genotype data (compliment if necessary) to match exome capture protocol
+3. correct genotype data (complement if necessary) to match exome capture protocol
 
 
 | match	                | Ref and Alt changes             | genotypes changes |
 |-----------------------|---------------------------------|-------------------|
 | Ref = A_allele        | unchanged                       | unchanged  |
-| Ref = B_allele        | Ref = B_allele, Alt = A_allele  | compliment |
+| Ref = B_allele        | Ref = B_allele, Alt = A_allele  | complement |
 | Ref = comp(A_allele)	| Ref = comp(A_allele) Alt = comp(B_allele) | unchanged  |
-| Ref = comp(B_allele)	| Ref = comp(B_allele) Alt = comp(A_allele) | compliment |
+| Ref = comp(B_allele)	| Ref = comp(B_allele) Alt = comp(A_allele) | complement |
 
-Compliment genotypes
+Complement genotypes
 | original	| converted |
 |-----------|-----------|
 | 0/0       |	1/1       |
