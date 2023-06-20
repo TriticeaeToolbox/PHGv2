@@ -1,5 +1,12 @@
 # Look at the improvement of removing markers and accessions where the raw 90K (unimputed) data does not match 2019_hapmap
 
+- complement genotypes for markers when that improves the accuracy matching 2019_hapmap
+
+| test | imputation accuracy | notin/in PHG | markers | accessions |
+| -----| -------------------|---------|------------|
+| regular | 84.2% | 82.9/89.0 | 11107 | 130 |
+| align to 2019_hapmap | 
+
 - using a set of 130 accessions that are in both 90K and 2019_hapmap
 - remove "bad accessions" - accessions with < 90% accuracy when comparing raw data
 - remove "bad markers" - markers with < 90% accuracy when comparing raw data
