@@ -6,7 +6,7 @@
 
 | test | imputation accuracy | notin/in PHG | markers | accessions|
 |------| --------------------| -------------|---------| ----------|
-| regular | 86.4% | | 11107 | 130                                 |
-| remove bad accn | 87.3% | | 11107 | 104 |
+| regular | 86.4% | 85.1/91.5  | 11107 | 130                                 |
+| remove bad accn | 87.3% |    | 11107 | 104 |
 | remove bad markers | 87.9% | | 9673 | 130                       |
 | remove bad accn & markers | 88.8% | 87.3/98.2 | 9673 | 104      |
