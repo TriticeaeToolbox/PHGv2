@@ -4,8 +4,8 @@
 
 | test | imputation accuracy | notin/in PHG | markers | accessions |
 | -----| -------------------|---------|------------|
-| regular | 84.2% | 82.9/89.0 | 11107 | 130 |
-| align to 2019_hapmap | 
+| regular              | 84.2% | 82.9/89.0 | 11107 | 130 |
+| align to 2019_hapmap | 86.4% | 85.1/91.5 | 11107 | 130 | 
 
 - using a set of 130 accessions that are in both 90K and 2019_hapmap
 - remove "bad accessions" - accessions with < 90% accuracy when comparing raw data
