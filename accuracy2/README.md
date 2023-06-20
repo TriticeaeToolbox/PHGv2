@@ -3,7 +3,7 @@
 - complement genotypes for markers when that improves the accuracy matching 2019_hapmap
 
 | test | imputation accuracy | notin/in PHG | markers | accessions |
-| -----| -------------------|---------|------------|
+| -----| --------------------|--------------|---------|------------|
 | regular              | 84.2% | 82.9/89.0 | 11107 | 130 |
 | align to 2019_hapmap | 86.4% | 85.1/91.5 | 11107 | 130 | 
 
