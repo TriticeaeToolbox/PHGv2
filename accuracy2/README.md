@@ -9,8 +9,8 @@ Use a set of 130 accessions that are in both 90K and 2019_hapmap
   
 | test | imputation accuracy | notin/in PHG | markers | accessions|
 |------| --------------------| -------------|---------| ----------|
-| uncorrected | 84.2% | 82.9/89.0 | 11107 | 130 |
-| aligned to 2019_hapmap | 86.4% | 85.1/91.5  | 11107 | 130                                 |
+| uncorrected | 84.2% | 68.9/92.2 | 11107 | 130 |
+| aligned to 2019_hapmap | 86.4% | 72.1/94.0  | 11107 | 130                                 |
 | remove bad accn | 87.3% |    | 11107 | 104 |
 | remove bad markers | 87.9% | | 9673 | 130                       |
 | remove bad accn & markers | 88.8% | 87.3/98.2 | 9673 | 104      |
