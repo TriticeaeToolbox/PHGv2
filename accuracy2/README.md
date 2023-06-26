@@ -21,4 +21,4 @@ compare imputation accuracy for "markers in common" vs every 100th marker
 | test | imputation accuracy | markers | accessions |
 |------|---------------------|---------|------------|
 | markers in common  | 87.3% | 11107   | 104 |
-| every 100th marker | 90.6  | 1478483 | 104 |
+| every 100th marker | 90.6  | 14784 | 104 |
