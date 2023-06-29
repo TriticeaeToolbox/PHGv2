@@ -6,13 +6,13 @@ Imputing the 90K protocol introduces possible errors from
 3. errors from markers that map to multiple locations
 
 Imputing from 2019_hapmap protocol should give better accuracy because the protocol is the same as was used to create the PHG. To use the 2019_hapmap protocol I down sampled the data in 2 ways.
-1. pick subset of markers that are at same location of 90K markers
-2. pick subset of markers by keeping every 100th marker
+1. pick subset of markers that are at same location of 90K markers "2019_hapmap_90K"
+2. pick subset of markers by keeping every 100th marker "2019_hapmap_d100"
 These two dataset where imputed using the PHG
 
 To test the accuracy of imputation I compared the imputed data to original dataset in 2 ways
-1. compare subset of markers that are at same location of 90K markers
-2. compare subset of markers using every 100th marker
+1. compare subset of markers that are at same location of 90K markers "common"
+2. compare subset of markers using every 100th marker "d100"
 
 Results
 | Trial | accuracy test | accuracy | accessions | markers |
