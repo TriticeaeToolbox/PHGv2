@@ -4,7 +4,7 @@ Practical Haplotype Graph from Katie Jordon with 472 accessions aligned to Wheat
 The PHG database was created using PHG v0.35 software then updated to PHG v0.40 using Liquibase plugin.
 The PHG database was used to impute genotypes from 9K and 90K Illumina to high density (2.9M markers).
 
-* [List of scripts use with the PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/list-of-scripts.txt)
+* [List of scripts use with the PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/list-of-scripts.md)
 * [Align Illumina Infinium data to reference](https://github.com/TriticeaeToolbox/PHGv2/blob/main/align2Genome)
 * [Imputation protocol](https://github.com/TriticeaeToolbox/PHGv2/tree/main/imputation)
 * [Imputation accuracy](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy) 
