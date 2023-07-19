@@ -1,16 +1,16 @@
 <h2>Accuracy checks for imputation</h2>
 
 # Accuracy for different protocols
-Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "accuracy common markers" is the comparison done using only the markers common between the low density protocol and the 2019_hapmap protocol. The "accuracy all markers" compares the full 2.9M markers.
+Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "accuracy common markers" is the comparison done using only the markers common between the low density protocol and the 2019_hapmap protocol. The "accuracy all markers" compares the full 2.9M markers. It might be expected that the imputation accuracy for common markers should be 100% because the genotype is known at that position but the PHG imputation is limited to picking a haplotype from those haplotypes used to create the PHG. The imputation accuracy is also lower than 100% because the accessions may not be identical.
 
-**accessions in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol
+**accessions in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol for accessions that are in the PHG database. These accuracies are high because the haplotypes are in the PHG.
   
 | Low density Protocol | common accessions | accuracy common markers | accuracy all markers |
 |----------|-------------------|----------------|-------------|
 | 90K      |      80           | 94%          |   93%     |
 | 9K       |      64           | 93%          |   92%     |
 
-**accessions not in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol
+**accessions not in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol for accessions that that are not in the PHG database. I expect this accuracy to be low because these accessions contain haplotypes that are not in the PHG.
  
 | Low density Protocol | common accessions | accuracy common markers | accuracy all markers |
 |----------|-------------------|----------------|-------------|
@@ -25,7 +25,7 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "acc
 
 ![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-90K-inPHG.png)
 
-**nearest genetic distance for each accession** - Look at each accession from 90K inPHG and finding the nearest accession in PHG. Almost all accessions are closest to "Wendy", so this does not explain differences in accuracy
+**nearest genetic distance for each accession** - Look at each accession from 90K inPHG and finding the nearest accession in PHG.
 
 **accession not in the PHG PCA** - merge notinPHG accessions with PHG accessions then PCA. The clusters for notinPHG are a little more spread out
 
