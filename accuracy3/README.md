@@ -1,4 +1,6 @@
-Testing imputation accuracy by imputing genotype data from 2019_hapmap exon capture protocal.
+# Imputation accuracy from 2019_hapmap by exon capture protocal.
+
+Impute using 2019_hapmap genotype to see if this gets better accuracy 
 
 Imputing the 90K protocol introduces possible errors from 
 1. mapping the marker locations to RefSeq_V2
