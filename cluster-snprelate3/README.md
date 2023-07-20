@@ -13,7 +13,7 @@ next look at hapmap_2019 accessions. These are clearly related but not identical
 - liftover to RefSeqV2
 - the accessions themselves
 
-![PCA2](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/snprelate-pca-2019hapmap.png)
+![PCA2](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-pca-2019hapmap.png)
 
 ![CMD2](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-cmdscale-2019hapmap.png)
 
