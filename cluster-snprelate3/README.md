@@ -1,6 +1,6 @@
 # cluster population
 
-merge populations (90K, HQEC, 2019_hapmap) with PHG470 then cluster results to show differences in poplulations
+merge populations (90K, HQ_EC, 2019_hapmap) with PHG470 then cluster results to show differences in populations
 
 first look at the 13 accessions from Katie (HQ_EC). These are closely related to PHG470. The first imagage is PCA. The second image is IBS cmsscale
 
