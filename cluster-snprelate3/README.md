@@ -8,10 +8,7 @@ first look at the 13 accessions from Katie (HQ_EC). These are closely related to
 
 ![CMD1](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-cmdscale-HQEC.png)
 
-next look at hapmap_2019 accessions. There are accessions distantly related in PCA3 and PCA4. The cmdscale(ibs) also shows accessions different that PHG470. You can see a pattern that is produced from over 100 accessions that are identical but don't cluster together. It could be differences in
-- protocol
-- liftover to RefSeqV2
-- the accessions themselves
+next look at 2019_hapmap accessions. There are 200 accession accessions that are the same between 2019_hapmap and PHG470. The PCA clustering show differences in PCA3 and PCA4. The cmdscale(ibs) also shows accessions different then in PHG470. It appears that some of the accessions in 2019_hapmap are more genetically different then the PHG470 population
 
 ![PCA2](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-pca-2019hapmap.png)
 
