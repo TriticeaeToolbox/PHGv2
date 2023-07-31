@@ -1,7 +1,6 @@
 # 2019_hapmap genotype protocol
 
-These genotypes were aligned to RefSeqV2 using liftover
-Filter the genotypes aligned to RefSeqV2 by comparing it to the VCF file from PHGv2.
+These genotypes were aligned to RefSeqV2 using liftover. Filter the genotypes aligned to RefSeqV2 by comparing it to the VCF file from PHGv2.
 
 1. Compare markers and accessions in 2019_hapmap with the genotypes in PHG470.
  - compare-2019_hapmap-phg470.pl
