@@ -6,6 +6,7 @@ Imputing from 2019_hapmap protocol should give high accuracy because the protoco
 1. markers where NCC > 30 (Number of no-called accessions)
 2. markers that do not match PHG470 by location and Ref allele
 3. markers where genotypes matches with  PHG470 < 80%
+
 The imputation accuracy was calculated on every 100th (d100) and every 10th (d100) marker to reduce computatio time
 
 Results
