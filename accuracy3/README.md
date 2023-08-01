@@ -1,4 +1,6 @@
-# Imputation accuracy from 2019_hapmap by exon capture protocal.
+# Imputation accuracy of 2019_hapmap (exon capture protocal)
+
+## Compared imputed genotypes to PHG470, VCF file of genotypes used to create PHG
 
 Imputing from 2019_hapmap protocol should give high accuracy because the protocol is the same as was used to create the PHG. The input for imputation is the 2019_hapmap that has been filtered to remove markers as follows
 1. markers where NCC > 30 (Number of no-called accessions)
