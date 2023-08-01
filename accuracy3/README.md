@@ -9,7 +9,7 @@ Results
 | Trial | test | accuracy | accessions | markers |
 |-------|------|----------|------------|---------|
 | 2019_hapmap_filtered  | d100 | 92% (86%/95%) | 108/191 | 4,345 |
-| 2019_hapmap_filtered  | d10  |               |         |       |
+| 2019_hapmap_filtered  | d10  | 92% (88%/95%) | 108/191 | 43,452 |
 
 Conclusion:
 
