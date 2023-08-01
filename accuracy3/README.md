@@ -6,11 +6,10 @@ Imputing from 2019_hapmap protocol should give better accuracy because the proto
 3. markers where genotypes matches with  PHG470 < 80%
 
 Results
-| Trial | accuracy test | accuracy | accessions | markers |
-|-------|----------|------------|---------|----------|
-| Infinium 9K  |  |  | |
-| Infinium 90K |  |  | |
-| 2019_hapmap_filtered  | 92% (86%/95%) | 108/191 | 4,345 |
+| Trial | test | accuracy | accessions | markers |
+|-------|----------|------------|---------|
+| 2019_hapmap_filtered  | d100 | 92% (86%/95%) | 108/191 | 4,345 |
+| 2019_hapmap_filtered  | d10  |               |         |       |
 
 Conclusion:
 
