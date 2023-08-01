@@ -7,7 +7,7 @@ Imputing from 2019_hapmap protocol should give better accuracy because the proto
 
 Results
 | Trial | test | accuracy | accessions | markers |
-|-------|----------|------------|---------|
+|-------|------|----------|------------|---------|
 | 2019_hapmap_filtered  | d100 | 92% (86%/95%) | 108/191 | 4,345 |
 | 2019_hapmap_filtered  | d10  |               |         |       |
 
