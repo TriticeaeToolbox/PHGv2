@@ -15,3 +15,16 @@ Results
 | 2019_hapmap_filtered  | d100 | 92% (86%/95%) | 108/191 | 4,345 |
 | 2019_hapmap_filtered  | d10  | 92% (87%/95%) | 108/191 | 43,452 |
 
+Lowest imputation accuracy
+| Accn | in PHG | accuracy | notes |
+|------|--------|----------|-------|
+| G3116 | no    | 64%      | Wild diploid |
+| DV92  | no    | 66%      | Cultivated diploid |
+| TA1718 | yes  | 75%      | Aegilops tauschii  |
+| TA1615 | yes  | 77%      | Aegilops tauschii  |
+| TA1662 | yes  | 78%      | Aegilops tauschii  |
+| IL07-20728 | yes | 79%   |                    |
+| DAYN | yes    | 80%      |                    |
+| W7984 | no    | 81%      | Synthetic          |
+| M6    | no    | 81%      |                    |
+| 26R61 | no    | 81%      |                    |
