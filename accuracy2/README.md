@@ -10,11 +10,12 @@ compare imputation accuracy for markers in 90K
   
 | test | imputation accuracy | not in PHG /in PHG | markers | accessions|
 |------| --------------------| -------------|---------| ----------|
-| uncorrected | 84.2% | 68.9/92.2 | 11107 | 130 |
-| aligned to 2019_hapmap | 86.4% | 72.1/94.0  | 11107 | 130                                 |
-| remove bad accn | 87.3% |    | 11107 | 104 |
-| remove bad markers | 87.9% | | 9673 | 130                       |
-| remove bad accn & markers | 88.8% | 73.4/97.7 | 9673 | 104      |
+| uncorrected                | 92%   | 86/94 | 14484 | 125 |
+| aligned to 2019_hapmap     | 93%   | 87/95 | 14484 | 125 |
+| remove bad accn            | 93%   | 88/96 | 14484 | 104 |
+| remove bad markers         | 87.9% | | 9673 | 130                       |
+| remove bad accn & markers  | 88.8% | 73.4/97.7 | 9673 | 104      |
+| genotypes corrected        | 93% | 87/95 | 14484 | 125 |
 
 compare imputation accuracy for "markers in common" vs every 100th marker
 
