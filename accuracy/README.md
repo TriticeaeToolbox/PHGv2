@@ -1,7 +1,7 @@
 <h2>Accuracy checks for imputation</h2>
 
 # Accuracy for different protocols
-Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "accuracy common markers" is the comparison done using only the markers common between the low density protocol and the 2019_hapmap protocol. The "accuracy all markers" compares the full 2.9M markers. It might be expected that the imputation accuracy for common markers should be 100% because the genotype is known at that position but the PHG imputation is limited to picking a haplotype from those haplotypes used to create the PHG. The imputation accuracy is also lower than 100% because the accessions may not be identical.
+Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "imputation accuracy" is the comparison between the PHG imputed genotypes and the 2019_hapmap data genotypes.
 
 **accessions in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol for accessions that are in the PHG database. These accuracies are high because the haplotypes are in the PHG.
   
