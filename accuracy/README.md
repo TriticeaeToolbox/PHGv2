@@ -5,17 +5,17 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "acc
 
 **accessions in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol for accessions that are in the PHG database. These accuracies are high because the haplotypes are in the PHG.
   
-| Low density Protocol | common accessions | accuracy common markers | accuracy all markers |
-|----------|-------------------|----------------|-------------|
-| 90K      |      80           | 94%          |   93%     |
-| 9K       |      64           | 93%          |   92%     |
+| Low density Protocol | accessions | imputation accuracy |
+|----------|-------------------|----------------|
+| 90K      |      80           | 95%          |
+| 9K       |      64           | 94%          |  
 
-**accessions not in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol for accessions that that are not in the PHG database. I expect this accuracy to be low because these accessions contain haplotypes that are not in the PHG.
+**accessions not in the PHG** - compare the imputed genotypes to the genotypes in the 2019_hapmap protocol for accessions that that are not in the PHG database. I expect this accuracy to be lower because these accessions contain haplotypes that are not in the PHG.
  
-| Low density Protocol | common accessions | accuracy common markers | accuracy all markers |
-|----------|-------------------|----------------|-------------|
-| 90K      |     54     | 72%        |        |
-| 9K       |     48     | 70%        |        |
+| Low density Protocol | accessions | imputation accuracy | 
+|----------|-------------------|----------------|
+| 90K      |     54     | 88%        |
+| 9K       |     48     | 88%        |
  
 **accessions in the PHG PCA** - merge inPHG accessions with PHG accessions then PCA. The clusters are well defined but seperate
 
