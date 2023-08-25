@@ -7,7 +7,7 @@ The PHG database was used to impute genotypes from 9K and 90K Illumina to high d
 * [List of scripts use with the PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/list-of-scripts.md)
 * [Align Illumina Infinium data to reference](https://github.com/TriticeaeToolbox/PHGv2/blob/main/align2Genome)
 * [Imputation protocol](https://github.com/TriticeaeToolbox/PHGv2/tree/main/imputation)
-* [Imputation accuracy](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy) 
+* [Imputation accuracy](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy_90K) 
 * [Imputation accuracy by market class](https://github.com/TriticeaeToolbox/PHGv2/tree/main/cluster-snprelate)
 * Breedbase Loading from PHG
   - The imputed genotypes can be loaded as a SNP VCF file. The SNP VCF files are large so I have only made them avaialable as links from the Wizard or on the FTP site. [Generating SNP VCF](https://github.com/TriticeaeToolbox/PHGv2/blob/main/imputation/run-imputation.sh)
