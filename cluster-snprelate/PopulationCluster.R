@@ -6,7 +6,7 @@ library("SNPRelate")
 vcf.fn <- "HQ_EClines_PHGtesting_notin472-d10.vcf.merged" #includes duplicates
 snpgdsVCF2GDS(vcf.fn, "ccm_HQ_EClines_merged-d10.gds",  method="biallelic.only")
 genofile <- snpgdsOpen("ccm_HQ_EClines_merged-d10.gds")
-pop <- append(rep("HQ_EC", 13), rep("PHG470", 463))
+pop <- append(rep("HQ_EC", 13), rep("PHGv2", 472))
 pop <- as.factor(pop)
 popSym <- as.numeric(pop)
 
@@ -42,9 +42,10 @@ dev.copy(png,"images/snprelate-cmdscale-HQEC.png"); dev.off()
 #now do the same for 2019_hapmap
 #this is done once because it can be large file
 vcf.fn <- "2019_hapmap_d100.vcf.merged" #includes duplicates
-snpgdsVCF2GDS(vcf.fn, "ccm_2019_hapmap_merged-d100.gds",  method="biallelic.only")
-genofile <- snpgdsOpen("ccm_2019_hapmap_merged-d100.gds")
-pop <- append(rep("2019_hapmap", 337), rep("PHG470", 463))
+#snpgdsVCF2GDS(vcf.fn, "ccm_2019_hapmap_merged-d100.gds",  method="biallelic.only")
+#genofile <- snpgdsOpen("ccm_2019_hapmap_merged-d100.gds")
+genofile <- snpgdsOpen("ccm_2019_hapmap_filtered_merged.gds")
+pop <- append(rep("2019_hapmap", 337), rep("PHGv2", 472))
 pop <- as.factor(pop)
 popSym <- as.numeric(pop)
 
@@ -55,19 +56,19 @@ res <- ccm_pca$eigenvec[, 1:20]
 pca <- data.frame(sample.id = ccm_pca$sample.id,
                   EV1 = ccm_pca$eigenvect[,1],
                   EV2 = ccm_pca$eigenvect[,2])
-plot(pca$EV1, pca$EV2, col=pop, pch=popSym, main="PCA 2019_hapmap vs PHG")
+plot(pca$EV1, pca$EV2, col=pop, pch=popSym, main="PCA 2019_HapMap vs PHG")
 legend("topleft", legend=levels(pop), text.col=1:nlevels(pop), pch=1:nlevels(pop))
 dev.copy(png,"images/snprelate-pca-2019hapmap.png"); dev.off()
 
 pc.percent <- ccm_pca$varprop*100
 lbls <- paste("PC", 1:4, "\n", format(pc.percent[1:4], digits=2), "%", sep="")
-pairs(ccm_pca$eigenvect[,1:4], col=pop, labels=lbls, main="PCA 2019_hapmap vs PHG")
+pairs(ccm_pca$eigenvect[,1:4], col=pop, labels=lbls, main="PCA 2019_HapMap vs PHG")
 dev.copy(png,"images/snprelate-pcapairs-2019hapmap.png"); dev.off()
 
 ibs <- snpgdsIBS(genofile, num.thread=4)
 loc <- cmdscale(1 - ibs$ibs, eig=TRUE, k = 2)
 x <- loc$points[, 1]; y <- loc$points[, 2]
 
-plot(x, y, xlab="", ylab="", col=pop, pch=popSym, main="cmdscale(ibs) 2019_hapmap vs PHG")
-legend("bottomleft", legend=levels(pop), text.col=1:nlevels(pop), pch=1:nlevels(pop))
+plot(x, y, xlab="", ylab="", col=pop, pch=popSym, main="cmdscale(ibs) 2019_HapMap vs PHG")
+legend("bottomright", legend=levels(pop), text.col=1:nlevels(pop), pch=1:nlevels(pop))
 dev.copy(png,"images/snprelate-cmdscale-2019hapmap.png"); dev.off()

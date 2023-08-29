@@ -5,16 +5,16 @@
 library("SNPRelate")
 library("ggplot2")
 library("ggpubr")
-library(factoextra)
+#library(factoextra)
 vcf.fn <- "2019_hapmap_all.vcf"
 snpgdsVCF2GDS(vcf.fn, "ccm_2019_hapmap_merged.gds",  method="biallelic.only")
 genofile <- openfn.gds("ccm_2019_hapmap_merged.gds")
 ccm_pca<-snpgdsPCA(genofile)
 
 vcf.fn <- "2019_hapmap_all_maf05.vcf.gz"
-snpgdsVCF2GDS(vcf.fn, "ccm_2019_hapmap_merged05.gds",  method="biallelic.only")
-genofile <- openfn.gds("cluster-snprelate/ccm_2019_hapmap_merged05.gds")
-ccm_pca<-snpgdsPCA(genofile)
+snpgdsVCF2GDS(vcf.fn, "ccm_2019_hapmap_merged2.gds",  method="biallelic.only")
+genofile <- openfn.gds("ccm_2019_hapmap_merged2.gds")
+ccm_pca<-snpgdsPCA(genofile, num.thread=4)
 
 pca <- ccm_pca$eigenval[1:20]
 res <- ccm_pca$eigenvec[, 1:20]
@@ -24,7 +24,7 @@ a <- ggplot(pve, aes(PC, pve)) + geom_bar(stat = "identity")
 a + ylab("Percentage variance explained") + theme_light()
 ggsave("cluster-snprelate/images/snprelate-2019_hapmap-var.jpg")
 
-fviz_nbclust(res, kmeans, method = 'wss', k.max = 20)
+#fviz_nbclust(res, kmeans, method = 'wss', k.max = 20)
 
 ibs <- snpgdsIBS(genofile)
 loc <- cmdscale(1 - ibs$ibs, eig=TRUE, k = 2)
@@ -32,7 +32,7 @@ x <- loc$points[, 1]; y <- loc$points[, 2]
 
 mds.df <- as.data.frame(loc$points)
 colnames(mds.df) <- c("Dim1", "Dim2")
-kmclusters <- kmeans(mds.df, 5)
+kmclusters <- kmeans(mds.df, 6)
 kmclusters <- as.factor(kmclusters$cluster)
 mds.df$groups <- kmclusters
 
@@ -45,12 +45,12 @@ ggscatter(mds.df, x = "Dim1", y = "Dim2", label = rownames(ibs),
 	  ellipse.type = "convex",
 	  repel = TRUE,
 	  title = "cluster K-means")
-ggsave("cluster-snprelate/images/snprelate-exome-cluster-kmeans.jpg")
+ggsave("images/snprelate-exome-cluster-kmeans.jpg")
 
 class1 <- read.table("accession-class-hapmap.txt", header = TRUE, sep = "\t")
 class2 <- read.table("accession-class-phgv2.txt", header = TRUE, sep = "\t")
 class <- rbind(class1, class2)
-MC <- cbind(class$hardness, class$color, class$season)
+#MC <- cbind(class$hardness, class$color, class$season)
 
 class$hardness <- as.factor(class$hardness)
 class$color <- as.factor(class$color)
@@ -60,13 +60,14 @@ MC <- paste0(class[,2],class[,3],class[,4])
 MC <- as.factor(MC)
 MCsym <- as.numeric(MC)
 
-locf <- loc$points[!grepl("unknown",MC),]
+locf <- loc$points[!grepl("unknown",MC)]
+locn <- class$name[!grepl("unknown",MC)]
 mcf <- MC[!grepl("unknown",MC)]
 mcf <- as.factor(mcf)
 mcfsym <- as.numeric(mcf)
 mcf <- droplevels(mcf)
 
-resf <- res[!grepl("unknown", MC),]
+resf <- res[!grepl("unknown", MC)]
 
 x <- locf[, 1]; y <- locf[, 2]
 mds.df <- as.data.frame(locf)
@@ -74,12 +75,15 @@ colnames(mds.df) <- c("Dim1", "Dim2")
 mds.df$class <- mcf
 
 # cluster data using market class
-ggscatter(mds.df, x = "Dim1", y = "Dim2", label = rownames(ibs),
+ggscatter(mds.df, x = "Dim1", y = "Dim2", label = ibs$sample.id,
           color = "class",
           palette = "jco",
           size = 1,
           repel = TRUE,
           title = "cluster market class")
+p + geom_point()
+p + geom_text(aes(label=locn))
+print(p)
 ggsave("cluster-snprelate/images/snprelate-exome-cluster-market.jpg")
 
 #with ggscatter it is difficult to change symbols and points so switch to plot
