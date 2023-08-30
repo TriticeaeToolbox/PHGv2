@@ -2,7 +2,7 @@
 
 merge populations (90K, HQ_EC, 2019_hapmap) with PHGv2 then cluster results to show differences in populations
 
-First look at the 13 accessions from Katie (HQ_EC). These are closely related to PHGv2. The first imagage is PCA. The second image is IBS cmsscale
+First look at the 13 accessions from Katie (HQ_EC). These are closely related to PHGv2. The first image is PCA. The second image is IBS cmsscale
 
 ![PCA1](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate3/images/snprelate-pca-HQEC.png)
 
