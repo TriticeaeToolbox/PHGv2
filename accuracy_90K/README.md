@@ -19,11 +19,11 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "imp
  
 **accessions in the PHG PCA** - merge inPHG accessions with PHG accessions then PCA. The clusters are well defined but seperate
 
-![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-pca-90K-inPHG.png)
+![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy_90K/images/snprelate-pca-90K-inPHG.png)
 
 **accessions in the PHG IBS Cmdscale** - MDS analysis shows the same clusters
 
-![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/cluster-snprelate/images/snprelate-90K-inPHG.png)
+![PCA in PHG](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy_90K/images/snprelate-90K-inPHG.png)
 
 **nearest genetic distance for each accession** - Look at each accession from 90K inPHG and finding the nearest accession in PHG.
 
