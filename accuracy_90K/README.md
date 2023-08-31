@@ -39,7 +39,7 @@ Compare imputed genotypes with the genotypes from 2019_hapmap protocol. The "imp
 
 **percentage match to PHG for each accession** - For each accession from 90K find percentage match to any accession in PHG. If there is a close match to something in PHG I expect the imputation accuracy to be high.
 
-![Imputed Accuracy vs PHG match](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy/images/accuracyVsmatch.png)
+![Imputed Accuracy vs PHG match](https://github.com/TriticeaeToolbox/PHGv2/blob/main/accuracy_90K/images/accuracyVsmatch.png)
 
 
 
