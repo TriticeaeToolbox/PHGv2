@@ -4,6 +4,7 @@
 #
 #check for accessions with no data and remove that accession
 #if duplicate accessions then add suffix _C2, _C3, ...
+#if duplicate location then skip, PHG software can not handle duplicate locations
 #skip "Un" chromosomes because they are not in PHG
 #$file is input file
 #$file2 is output file
@@ -61,8 +62,12 @@ while (!feof($reader)) {
 	    } elseif (substr($gt,0,3) == "./.") {
 	    } elseif (substr($gt,0,3) == "1/0") {
 	    } elseif (substr($gt,0,3) == "2/2") {
+	    } elseif (substr($gt,0,3) == "1/2") {
+	    } elseif (substr($gt,0,3) == "2/1") {
+	    } elseif (substr($gt,0,3) == "0/2") {
 	    } else {
-	        print "Error GT $key $gt\n";
+		print "Error GT $key $gt\n";
+		#print "$line\n";
 	    }
 	  }
 	}
@@ -118,6 +123,13 @@ while (!feof($reader)) {
     $name = $lineA[2];
     $ref = $lineA[3];
     $alt = $lineA[4];
+    $index = $chrom . "_" . $pos;
+    if (isset($unique[$index])) {
+        $count_dup++;
+        continue;
+    } else {
+	$unique[$index] = 1;
+    }
     if ($chrom == "wn") {
 	$chrom = "Unk";
     } elseif ($chrom == "Un") {
@@ -148,7 +160,7 @@ while (!feof($reader)) {
 	    #$stop = $pos + 1;
 	    #$range = "Chr" . $chrom . ":" . $start . "-" . $stop;
 	}
-	$cmd = "samtools faidx /data/wheat/iwgsc2.1/iwgsc_refseqv2_Chr" . $chrom . ".fa $range";
+	$cmd = "samtools faidx /data2/data-old/wheat/iwgsc2.1/iwgsc_refseqv2_Chr" . $chrom . ".fa $range";
 	$allele = system($cmd);
 	#print "$name $ref $alt $allele\n";
         $compRef = compliment($ref);
@@ -180,6 +192,7 @@ while (!feof($reader)) {
 	    $line = implode("\t", $lineA);
 	    fwrite($writer,"$line\n");
 	} elseif (preg_match("/$allele/", $alt)) {
+	    print "allele $allele match alt $alt\n";
 	    $count_change++;
 	    $tmp = $ref;
 	    $lineA[3] = $allele;
@@ -197,6 +210,8 @@ while (!feof($reader)) {
 		    $lineA[$key] = "./.";
 		} elseif ($gt == "2/2") {
 		    $lineA[$key] = "0/0";      //is this correct
+		} elseif ($gt == "1/0") {
+		    $lineA[$key] = "0/1";
 		} else {
 		    print "error gt $gt\n";
 		}
@@ -206,6 +221,7 @@ while (!feof($reader)) {
 	    fwrite($writer,"$line\n");
 	} elseif ($allele == $compRef) {
 	    $count_change++;
+	    print "allele $allele match compRef $compRef\n";
 	    $lineA[3] = $compRef;
 	    $lineA[4] = $compAlt;
 	    foreach ( $lineA as $key=>$gt) {
@@ -219,21 +235,26 @@ while (!feof($reader)) {
 	    fwrite($writer,"$line\n");
 	} elseif ($allele == $revcompRef) {
 	    $count_change++;
+	    #print "allele $allele match revcompRef $refcompRef\n";
 	    $lineA[3] = $revcompRef;
 	    $lineA[4] = $revcompAlt;
 	    foreach ( $lineA as $key=>$gt) {
 	        if ($key > 8) {
                 if ($gt == "1/1") {
                     $lineA[$key] = "0/0";
-                } elseif ($gt == "1/1") {
-                    $lineA[$key] = "0/0";
+                } elseif ($gt == "0/0") {
+                    $lineA[$key] = "1/1";
                 } elseif ($gt == "0/1") {
                     $lineA[$key] = "0/1";
                 } elseif ($gt == "./.") {
                 } elseif (empty($gt)) {
-                    $lineA[$key] = "./.";
-                }
-                }
+		    $lineA[$key] = "./.";
+		} elseif ($gt == "1/0") {
+		    $lineA[$key] = "0/1";
+		} else {
+		    print "error gt $gt\n";
+		}
+		}
             }
 	    $line = implode("\t", $lineA);
 	    fwrite($writer,"$line\n");
@@ -249,3 +270,4 @@ while (!feof($reader)) {
 }
 print "$count_nf allele not found\n";
 print "$count_change changed allele\n";
+print "$count_dup duplicate locations\n";
