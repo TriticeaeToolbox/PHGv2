@@ -3,7 +3,7 @@ Compare imputation accuracy of PHG472 vs PHG500. The PHG500 has 25 accessions fr
 <a href=cimmyt-accessions.csv>CIMMYT accessions</a>
 
 Method:
-1. Compared imputation accuracy for 125 accessions that are in both 90K Illumia and 2019_HapMap high density expome capture.
+1. Compared imputation accuracy for 125 accessions that are in both 90K Illumia and 2019_HapMap high density exome capture.
 
 Results:
 <a href=PHG472vsPHG500.csv>PHG472vsPHG500</a>
