@@ -8,9 +8,7 @@ JBrowse shows reference sequence and gene annotation tracks. It can also display
 
 2. DivBrowse
 
-DivBrowse 
-
-DivBrowse is a new tool designed to visualize very large VCF files. 
+DivBrowse is a new tool designed to visualize very large VCF files. It uses Zarr compression so it can quickly retrieve both subset of accessions and specific locations from large VCF
 
 3. rPHG, Shiny Server
 
