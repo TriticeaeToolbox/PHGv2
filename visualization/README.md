@@ -9,3 +9,9 @@ JBrowse shows reference sequence and gene annotation tracks. It can also display
 2. DivBrowse
 
 DivBrowse 
+
+DivBrowse is a new tool designed to visualize very large VCF files. 
+
+3. rPHG, Shiny Server
+
+The combination of rPHG package and Shiny Server makes it easy to extract small sections from the PHG database. The limitation of this environment is that the entire PHG database has to be loaded into memory. For the wheat PHG the memory requirements prohibit it from working.
